@@ -30,50 +30,23 @@ dim = sys.argv[1]
 
 
 def extract_info(filename):  
-        
-    fact_story = [] 
-    fact_stories = []
-    questions = []
-    answers = []
-    fact_idx = 0
-    print("opening:",filename)
-    file = open(filename,'r')
-    for line in file.readlines(): 
-        
-        flag_end_story = 0 
-        line = line.lower() 
-        if '? ' in line:
-            #q for question, a for answer.
-            flag_end_story=1
-            qa = line.strip().split('\t')
-#             if "squad" in filename:
-#                 print(qa)
-            q = qa[0]
-            a = qa[1]
-            #q = q.translate(None, string.punctuation)
-            #a = a.translate(None, string.punctuation)
-            q = ' '.join(q.split())
-            a = ' '.join(a.split())
-            q = q.strip().split(' ')
-            a = a.strip().split(' ')
-            q = q[1:]
-            fact_stories.append(q)
-            fact_stories.append(a)
-            
-        else: 
-            line = line.translate(None, string.punctuation)
-            fact = line.strip().split()
-            fact_idx += 1
-            fact = fact[1:]
-            fact_stories.append(fact)
+    print "==> Embedding from from %s" % filename
+    sentences = []
+    for i, line in enumerate(open(filename)):
+        line = line.strip()
+        line = line.replace('.', ' . ')
+        line = line[line.find(' ')+1:]
+        if line.find('?') == -1:
+            sentences.append(line)
+        else:
+            idx = line.find('?')
+            tmp = line[idx+1:].split('\t')
+            ques = line[:idx]
+            ans = tmp[1].strip()
+            sentences.append(ques)
+            sentences.append(ans)
 
-        if flag_end_story == 1: 
-#             fact_stories.append(fact_story)
-            fact_idx = 0
-            
-    file.close()
-        
-    return fact_stories
+    return sentences
 
 
 # In[27]:
