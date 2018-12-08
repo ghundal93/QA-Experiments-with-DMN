@@ -51,8 +51,12 @@ network_name = args.prefix + '%s.mh%d.n%d.bs%d%s%s%s.babi%s' % (
 
 babi_train_raw, babi_test_raw = utils.get_babi_raw(args.babi_id, args.babi_test_id)
 
-word2vec = utils.load_glove(args.word_vector_size)
-
+if args.network == 'dmn_squad':
+    word2vec = utils.load_custom_embedding(args.word_vector_size)
+else:
+    word2vec = utils.load_glove(args.word_vector_size)
+#word2vec = utils.load_glove(args.word_vector_size)
+#word2vec = utils.load_custom_embedding(args.word_vector_size)
 args_dict = dict(args._get_kwargs())
 args_dict['babi_train_raw'] = babi_train_raw
 args_dict['babi_test_raw'] = babi_test_raw
@@ -84,6 +88,12 @@ elif args.network == 'dmn_qa':
         print "==> no minibatch training, argument batch_size is useless"
         args.batch_size = 1
     dmn = dmn_qa_draft.DMN_qa(**args_dict)
+elif args.network == 'dmn_squad':
+    import dmn_squad
+    if (args.batch_size != 1):
+        print "==> no minibatch training, argument batch_size is useless"
+        args.batch_size = 1
+    dmn = dmn_squad.DMN_squad(**args_dict)
 
 else: 
     raise Exception("No such network known: " + args.network)

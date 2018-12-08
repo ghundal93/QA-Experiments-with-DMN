@@ -48,7 +48,7 @@ def get_babi_raw(id, test_id):
         "18": "qa18_size-reasoning",
         "19": "qa19_path-finding",
         "20": "qa20_agents-motivations",
-        "21": "squad-v1.1.json"
+        "21": "squad-v1.1.json",
         "MCTest": "MCTest",
         "19changed": "19changed",
         "joint": "all_shuffled", 

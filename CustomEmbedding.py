@@ -36,7 +36,7 @@ def extract_info(filename):
     questions = []
     answers = []
     fact_idx = 0
-
+    print("opening:",filename)
     file = open(filename,'r')
     for line in file.readlines(): 
         
@@ -81,11 +81,11 @@ def extract_info(filename):
 
 sentences = []
 for filename in onlyfiles:
-    print(filename)
+#    print(mypath+filename)
     fact_stories = extract_info(mypath+filename)
     sentences += fact_stories
 #filename = "data/squad1.1/train-v1.1.json_train.txt"
-sentences += extract_info(filename)
+#sentences += extract_info(filename)
 #sentences.append(['unk','eos','pad'])
 
 
@@ -98,7 +98,7 @@ sentences[-10:]
 # In[29]:
 
 
-model = Word2Vec(sentences, min_count=1,size=dim,window=3)
+model = Word2Vec(sentences, min_count=1,size=int(dim),window=3)
 
 
 # In[31]:
@@ -108,8 +108,8 @@ words = list(model.wv.vocab)
 # words.append('unk')
 # words.append('eos')
 # words.append('pad')
-print(len(words))
-print(words.index('unk'))
+#print(len(words))
+#print(words.index('unk'))
 
 
 # In[32]:
@@ -127,7 +127,7 @@ model.save('data/custom/model' + str(dim) + 'd.bin')
 # In[39]:
 
 
-word = model.wv.similar_by_word("\t1",topn=1)
+word = model.wv.similar_by_word("lion",topn=1)
 print(word)
 
 
