@@ -1,5 +1,6 @@
 import os as os
 import numpy as np
+from gensim.models import Word2Vec
 
 def init_babi(fname):
     print "==> Loading test from %s" % fname
@@ -47,6 +48,7 @@ def get_babi_raw(id, test_id):
         "18": "qa18_size-reasoning",
         "19": "qa19_path-finding",
         "20": "qa20_agents-motivations",
+        "21": "squad-v1.1.json"
         "MCTest": "MCTest",
         "19changed": "19changed",
         "joint": "all_shuffled", 
@@ -91,6 +93,17 @@ def load_glove(dim):
             
     print "==> glove is loaded"
     
+    return word2vec
+
+def load_custom_embedding(dim):
+    word2vec = {}
+    print "==> loading load_custom_embedding"
+    model = Word2Vec.load(os.path.join(os.path.dirname(os.path.realpath(__file__)), "data/custom/model" + str(dim) + "d.bin"))
+    vocab = list(model.wv.vocab)
+    n_words = len(model.wv.vocab)
+    for i in range(0,n_words):
+        word2vec[vocab[i]] = model[vocab[i]]
+    print "==> custom embedding is loaded"
     return word2vec
 
 

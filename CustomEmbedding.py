@@ -8,7 +8,7 @@ from gensim.models import Word2Vec
 from os import listdir
 from os.path import isfile, join
 import string
-
+import sys
 
 # In[15]:
 
@@ -17,6 +17,7 @@ mypath = "data/en/"
 onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 print(onlyfiles)
 
+dim = sys.argv[1]
 
 # In[16]:
 
@@ -97,7 +98,7 @@ sentences[-10:]
 # In[29]:
 
 
-model = Word2Vec(sentences, min_count=1,size=100,window=3)
+model = Word2Vec(sentences, min_count=1,size=dim,window=3)
 
 
 # In[31]:
@@ -120,7 +121,7 @@ print(model['gray'])
 # In[33]:
 
 
-model.save('model_100.bin')
+model.save('data/custom/model' + str(dim) + 'd.bin')
 
 
 # In[39]:
