@@ -42,7 +42,7 @@ class DMN_squad:
 
         self.input_var = T.matrix('input_var')
         self.q_var = T.matrix('question_var')
-        self.answer_var = T.iscalar('answer_var')
+        self.answer_var = T.ivector('answer_var')
         self.input_mask_var = T.ivector('input_mask_var')
         
             
@@ -284,6 +284,7 @@ class DMN_squad:
             a = x["A"].lower().split(' ')
             a = [w for w in q if len(w) > 0]
             
+            #print("Processing input vector")
             inp_vector = [utils.process_word(word = w, 
                                         word2vec = self.word2vec, 
                                         vocab = self.vocab, 
@@ -291,6 +292,7 @@ class DMN_squad:
                                         word_vector_size = self.word_vector_size, 
                                         to_return = "word2vec") for w in inp]
                                         
+            #print("Processing question vector")
             q_vector = [utils.process_word(word = w, 
                                         word2vec = self.word2vec, 
                                         vocab = self.vocab, 
@@ -298,6 +300,7 @@ class DMN_squad:
                                         word_vector_size = self.word_vector_size, 
                                         to_return = "word2vec") for w in q]
             
+            #print("Processing answer vector")
             inputs.append(np.vstack(inp_vector).astype(floatX))
             questions.append(np.vstack(q_vector).astype(floatX))
             a_vector = [utils.process_word(word = w,
@@ -306,7 +309,7 @@ class DMN_squad:
                                         ivocab = self.ivocab,
                                         word_vector_size = self.word_vector_size,
                                         to_return = "index") for w in a]
-            answers.append(np.vstack(a_vector).astype(floatX))
+            answers.append(np.vstack(a_vector).astype(dtype=np.int32))
             # NOTE: here we assume the answer is one word! 
             if self.input_mask_mode == 'word':
                 input_masks.append(np.array([index for index, w in enumerate(inp)], dtype=np.int32)) 
