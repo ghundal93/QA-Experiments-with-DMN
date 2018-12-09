@@ -25,6 +25,30 @@ def init_babi(fname):
 
     return tasks
 
+def init_babi_squad(fname):
+    print "==> Loading test from %s" % fname
+    tasks = []
+    task = None
+    for i, line in enumerate(open(fname)):
+        id = int(line[0:line.find(' ')])
+        if id == 1:
+            task = {"C": "", "Q": "", "A": ""} 
+            
+        line = line.strip()
+        line = line.replace('.', ' . ')
+        line = line[line.find(' ')+1:]
+        if line.find('?') == -1:
+            task["C"] += line
+        else:
+            idx = line.find('?')
+            tmp = line[idx+1:].split('\t')
+            task["Q"] = line[:idx]
+            task["A"] = tmp[1].strip()
+            task["A"] += " ."
+            tasks.append(task.copy())
+
+    return tasks
+
 
 def get_babi_raw(id, test_id):
     babi_map = {
@@ -77,8 +101,12 @@ def get_babi_raw(id, test_id):
         test_id = id 
     babi_name = babi_map[id]
     babi_test_name = babi_map[test_id]
-    babi_train_raw = init_babi(os.path.join(os.path.dirname(os.path.realpath(__file__)), 'data/en/%s_train.txt' % babi_name))
-    babi_test_raw = init_babi(os.path.join(os.path.dirname(os.path.realpath(__file__)), 'data/en/%s_test.txt' % babi_test_name))
+    if test_id != 21:
+        babi_train_raw = init_babi(os.path.join(os.path.dirname(os.path.realpath(__file__)), 'data/en/%s_train.txt' % babi_name))
+        babi_test_raw = init_babi(os.path.join(os.path.dirname(os.path.realpath(__file__)), 'data/en/%s_test.txt' % babi_test_name))
+    else:
+        babi_train_raw = init_babi_squad(os.path.join(os.path.dirname(os.path.realpath(__file__)), 'data/en/%s_train.txt' % babi_name))
+        babi_test_raw = init_babi_squad(os.path.join(os.path.dirname(os.path.realpath(__file__)), 'data/en/%s_test.txt' % babi_test_name))      
     return babi_train_raw, babi_test_raw
 
             
