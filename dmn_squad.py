@@ -170,7 +170,7 @@ class DMN_squad:
         if self.answer_module != 'recurrent':
             self.loss_ce = T.nnet.categorical_crossentropy(self.prediction.dimshuffle('x', 0) ,T.stack([self.answer_var])).mean()
         else:
-            self.loss_ce = T.nnet.categorical_crossentropy(self.prediction.dimshuffle('x', 0), T.stack([self.answer_var]))[0]
+            self.loss_ce = T.nnet.categorical_crossentropy(self.prediction.dimshuffle('x', 0), self.answer_var)[0]
 
         if self.l2 > 0:
             self.loss_l2 = self.l2 * nn_utils.l2_reg(self.params)
