@@ -131,6 +131,8 @@ def do_epoch(mode, epoch, skipped=0):
             for x in prediction.argmax(axis=1):
                 y_pred.append(x)
             
+            dmn.print_predictions(y_true,y_pred);
+
             # TODO: save the state sometimes
             if (i % args.log_every == 0):
                 cur_time = time.time()

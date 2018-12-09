@@ -389,3 +389,6 @@ class DMN_basic:
                 "log": "pn: %.3f \t gn: %.3f" % (param_norm, grad_norm)
                 }
         
+    def print_predictions(y_true,y_pred):
+        for i in range(0,len(y_true)):
+            print("Expected answer:" + self.vocab[y_true[i]] + " , Predicted answer:" + self.vocab[y_pred[i]] )
