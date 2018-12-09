@@ -337,9 +337,9 @@ class DMN_squad:
     
     def get_batches_per_epoch(self, mode):
         if (mode == 'train'):
-            return len(self.train_input)
+            return 1000
         elif (mode == 'test'):
-            return len(self.test_input)
+            return 1000
         else:
             raise Exception("unknown mode")
     
