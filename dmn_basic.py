@@ -129,6 +129,10 @@ class DMN_basic:
                                   self.W_ans_hid_in, self.W_ans_hid_hid, self.b_ans_hid)
                 
                 y = nn_utils.softmax(T.dot(self.W_a, a))
+                print("ydim:",y.ndim)
+                print("ytype",y.type)
+                print("adim",a.ndim)
+                print("atype",a.type)
                 return [a, y]
             
             # TODO: add conditional ending
@@ -137,6 +141,10 @@ class DMN_basic:
                 outputs_info=[last_mem, T.zeros_like(dummy)],
                 n_steps=1)
             self.prediction = results[1][-1]
+            print("results[1] dim: ",results[1].ndim)
+            print("results[1] dim: ",results[1].type)
+            print("pred dim: ",results[1][-1].ndim)
+            print("pred dim: ",results[1][-1].type)
         
         else:
             raise Exception("invalid answer_module")

@@ -36,15 +36,14 @@ class DMN_squad:
         self.l2 = l2
         self.normalize_attention = normalize_attention
         
-        self.train_input, self.train_q, self.train_answer, self.train_input_mask,self.train_answer_mask = self._process_input(babi_train_raw)
-        self.test_input, self.test_q, self.test_answer, self.test_input_mask,self.test_answer_mask = self._process_input(babi_test_raw)
+        self.train_input, self.train_q, self.train_answer, self.train_input_mask = self._process_input(babi_train_raw)
+        self.test_input, self.test_q, self.test_answer, self.test_input_mask = self._process_input(babi_test_raw)
         self.vocab_size = len(self.vocab)
 
         self.input_var = T.matrix('input_var')
         self.q_var = T.matrix('question_var')
-        self.answer_var = T.matrix('answer_var')
+        self.answer_var = T.ivector('answer_var')
         self.input_mask_var = T.ivector('input_mask_var')
-        self.answer_mask_var = T.ivector('answer_mask_var')
         
             
         print "==> building input module"
@@ -130,6 +129,10 @@ class DMN_squad:
                                   self.W_ans_hid_in, self.W_ans_hid_hid, self.b_ans_hid)
                 
                 y = nn_utils.softmax(T.dot(self.W_a, a))
+                print("ydim:",y.ndim)
+                print("ytype",y.type)
+                print("adim",a.ndim)
+                print("atype",a.type)
                 return [a, y]
             
             # TODO: add conditional ending
@@ -137,8 +140,12 @@ class DMN_squad:
             results, updates = theano.scan(fn=answer_step,
                 outputs_info=[last_mem, T.zeros_like(dummy)],
                 n_steps=1)
-            # self.prediction = results[1][-1]
-            self.prediction = results.take(self.answer_mask_var, axis=0)
+            print("results[1] dim:,",results[1].ndim)
+            print("results[1] type:,",results[1].type)
+            self.prediction = results[1][-1]
+            print("pred dim:,",self.prediction.ndim)
+            print("pred  type:,",self.prediction.type)
+
         
         else:
             raise Exception("invalid answer_module")
@@ -160,7 +167,11 @@ class DMN_squad:
         
         
         print "==> building loss layer and computing updates"
-        self.loss_ce = T.nnet.categorical_crossentropy(self.prediction.dimshuffle('x', 0), T.stack([self.answer_var]))[0]
+        if self.answer_module != 'recurrent':
+            self.loss_ce = T.nnet.categorical_crossentropy(self.prediction.dimshuffle('x', 0) ,T.stack([self.answer_var])).mean()
+        else:
+            self.loss_ce = T.nnet.categorical_crossentropy(self.prediction.dimshuffle('x', 0), T.stack([self.answer_var]))[0]
+
         if self.l2 > 0:
             self.loss_l2 = self.l2 * nn_utils.l2_reg(self.params)
         else:
@@ -172,19 +183,21 @@ class DMN_squad:
         
         if self.mode == 'train':
             print "==> compiling train_fn"
-            self.train_fn = theano.function(inputs=[self.input_var, self.q_var, self.answer_var, self.input_mask_var,self.answer_mask_var], 
+            self.train_fn = theano.function(inputs=[self.input_var, self.q_var, self.answer_var, self.input_mask_var], 
                                        outputs=[self.prediction, self.loss],
-                                       updates=updates)
+                                       updates=updates,mode=theano.Mode(optimizer="fast_compile"))
         
         print "==> compiling test_fn"
-        self.test_fn = theano.function(inputs=[self.input_var, self.q_var, self.answer_var, self.input_mask_var,self.answer_mask_var],
-                                  outputs=[self.prediction, self.loss, self.inp_c, self.q_q, last_mem])
+        self.test_fn = theano.function(inputs=[self.input_var, self.q_var, self.answer_var, self.input_mask_var],
+                                  outputs=[self.prediction, self.loss, self.inp_c, self.q_q, last_mem],mode=theano.Mode(optimizer="fast_compile"))
         
         
         if self.mode == 'train':
             print "==> computing gradients (for debugging)"
+            print("loss ndim",self.loss.ndim)
+            print("loss type",self.loss.type)
             gradient = T.grad(self.loss, self.params)
-            self.get_gradient_fn = theano.function(inputs=[self.input_var, self.q_var, self.answer_var, self.input_mask_var,self.answer_mask_var], outputs=gradient)
+            self.get_gradient_fn = theano.function(inputs=[self.input_var, self.q_var,self.answer_var, self.input_mask_var], outputs=gradient,mode=theano.Mode(optimizer="fast_compile"),on_unused_input='ignore')
 
     
     def GRU_update(self, h, x, W_res_in, W_res_hid, b_res,
@@ -278,8 +291,6 @@ class DMN_squad:
         inputs = []
         answers = []
         input_masks = []
-        #gkaur1
-        answer_masks = []
         for x in data_raw:
             inp = x["C"].lower().split(' ') 
             inp = [w for w in inp if len(w) > 0]
@@ -287,8 +298,7 @@ class DMN_squad:
             q = [w for w in q if len(w) > 0]
             a = x["A"].lower().split(' ')
             a = [w for w in q if len(w) > 0]
-            
-            #print("Processing input vector")
+
             inp_vector = [utils.process_word(word = w, 
                                         word2vec = self.word2vec, 
                                         vocab = self.vocab, 
@@ -296,7 +306,6 @@ class DMN_squad:
                                         word_vector_size = self.word_vector_size, 
                                         to_return = "word2vec") for w in inp]
                                         
-            #print("Processing question vector")
             q_vector = [utils.process_word(word = w, 
                                         word2vec = self.word2vec, 
                                         vocab = self.vocab, 
@@ -304,16 +313,17 @@ class DMN_squad:
                                         word_vector_size = self.word_vector_size, 
                                         to_return = "word2vec") for w in q]
             
-            #print("Processing answer vector")
             inputs.append(np.vstack(inp_vector).astype(floatX))
             questions.append(np.vstack(q_vector).astype(floatX))
-            a_vector = [utils.process_word(word = w,
+            answers.append(np.array([utils.process_word(word = w,
                                         word2vec = self.word2vec,
                                         vocab = self.vocab,
                                         ivocab = self.ivocab,
                                         word_vector_size = self.word_vector_size,
-                                        to_return = "word2vec") for w in a]
-            answers.append(np.vstack(a_vector).astype(floatX))
+                                        to_return = "index") for w in a],dtype=np.int32))
+            #answers.append(np.vstack(a_vector).astype(dtype=np.int32))
+
+
             # NOTE: here we assume the answer is one word! 
             if self.input_mask_mode == 'word':
                 input_masks.append(np.array([index for index, w in enumerate(inp)], dtype=np.int32)) 
@@ -321,12 +331,8 @@ class DMN_squad:
                 input_masks.append(np.array([index for index, w in enumerate(inp) if w == '.'], dtype=np.int32)) 
             else:
                 raise Exception("invalid input_mask_mode")
-
-            #gkaur1 
-            #Todo: make it configurable
-            answer_masks.append(index for index, w in enumerate(a) if w == '.')
         
-        return inputs, questions, answers, input_masks,answer_masks
+        return inputs, questions, answers, input_masks
 
     
     def get_batches_per_epoch(self, mode):
@@ -340,9 +346,9 @@ class DMN_squad:
     
     def shuffle_train_set(self):
         print "==> Shuffling the train set"
-        combined = zip(self.train_input, self.train_q, self.train_answer, self.train_input_mask,self.train_answer_mask)
+        combined = zip(self.train_input, self.train_q, self.train_answer, self.train_input_mask)
         random.shuffle(combined)
-        self.train_input, self.train_q, self.train_answer, self.train_input_mask,self.train_answer_mask = zip(*combined)
+        self.train_input, self.train_q, self.train_answer, self.train_input_mask = zip(*combined)
         
     
     def step(self, batch_index, mode):
@@ -355,14 +361,12 @@ class DMN_squad:
             qs = self.train_q
             answers = self.train_answer
             input_masks = self.train_input_mask
-            answer_masks = self.train_answer_mask
         elif mode == "test":    
             theano_fn = self.test_fn 
             inputs = self.test_input
             qs = self.test_q
             answers = self.test_answer
             input_masks = self.test_input_mask
-            answer_masks = self.test_answer_mask
         else:
             raise Exception("Invalid mode")
             
@@ -375,7 +379,7 @@ class DMN_squad:
         grad_norm = float('NaN')
         
         if mode == 'train':
-            gradient_value = self.get_gradient_fn(inp, q, ans, input_mask,answer_masks)
+            gradient_value = self.get_gradient_fn(inp, q, ans, input_mask)
             grad_norm = np.max([utils.get_norm(x) for x in gradient_value])
             
             if (np.isnan(grad_norm)):
@@ -384,7 +388,7 @@ class DMN_squad:
                 skipped = 1
         
         if skipped == 0:
-            ret = theano_fn(inp, q, ans, input_mask,answer_masks)
+            ret = theano_fn(inp, q, ans, input_mask)
         else:
             ret = [-1, -1]
         
