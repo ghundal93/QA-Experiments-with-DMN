@@ -400,4 +400,16 @@ class DMN_squad:
                 "skipped": skipped,
                 "log": "pn: %.3f \t gn: %.3f" % (param_norm, grad_norm)
                 }
-        
+    def print_prediction_sentences(self,y_true_sent,y_pred_sent):
+        true_sent_list = []
+        pred_sent_list = []
+        for i in range(0,len(y_true_sent)):
+            true_sent = ""
+            pred_sent = ""
+            for j in range(0,len(y_true_sent[i])):
+                true_sent += self.ivocab[y_true_sent[i][j]]
+                pred_sent += self.ivocab[y_pred_sent[i][j]]
+            print("Expected answer:" + true_sent+ " , Predicted answer:" + pred_sent)
+            true_sent_list.append(true_sent)
+            pred_sent_list.append(pred_sent)
+        return true_sent_list,pred_sent_list

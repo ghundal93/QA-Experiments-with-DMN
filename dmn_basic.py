@@ -391,4 +391,4 @@ class DMN_basic:
         
     def print_predictions(self,y_true,y_pred):
         for i in range(0,len(y_true)):
-            print("Expected answer:" + self.ivocab[y_true[i]] + " , Predicted answer:" + self.ivocab[y_pred[i]] )
+            print("Expected answer:" + self.ivocab[y_true[i]] + " , Predicted answer:" + self.ivocab[y_pred[i]])

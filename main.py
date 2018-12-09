@@ -4,6 +4,7 @@ import sklearn.metrics as metrics
 import argparse
 import time
 import json
+import evaluate-v1.1.py
 
 import utils
 import nn_utils
@@ -127,11 +128,17 @@ def do_epoch(mode, epoch, skipped=0):
             
             for x in answers:
                 y_true.append(x)
+            if args.network == 'dmn_squad':
+                for x in prediction:
+                    y_pred.append(x)
+            else:
+                for x in prediction.argmax(axis=1):
+                    y_pred.append(x)
             
-            for x in prediction.argmax(axis=1):
-                y_pred.append(x)
-            
-            dmn.print_predictions(y_true,y_pred);
+            if args.network == 'dmn_squad':
+                [ground_truth,predictions] = dmn.print_prediction_sentences(y_true,y_pred);
+            else:
+                dmn.print_predictions(y_true,y_pred);
 
             # TODO: save the state sometimes
             if (i % args.log_every == 0):
@@ -149,9 +156,12 @@ def do_epoch(mode, epoch, skipped=0):
     print "\n  %s loss = %.5f" % (mode, avg_loss)
     print "confusion matrix:"
     print metrics.confusion_matrix(y_true, y_pred)
-    
-    accuracy = sum([1 if t == p else 0 for t, p in zip(y_true, y_pred)])
-    print "accuracy: %.2f percent" % (accuracy * 100.0 / batches_per_epoch / args.batch_size)
+    if args.network == 'dmn_squad':
+        eval_metric = evaluate_babified(ground_truth,predictions)
+        print "exact_match: %d,  F1 score: %.2f" % (eval_metric['exact_match'],eval_metric['f1'])
+    else: 
+        accuracy = sum([1 if t == p else 0 for t, p in zip(y_true, y_pred)])
+        print "accuracy: %.2f percent" % (accuracy * 100.0 / batches_per_epoch / args.batch_size)
     
     return avg_loss, skipped
 
