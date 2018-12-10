@@ -70,8 +70,36 @@ class DMN_squad:
                     outputs_info=T.zeros_like(self.b_inp_hid))
 
         self.q_q = self.q_q[-1]
-        
-        
+        self.q_list = [self.q_q]
+        print("==> creating parameter for Deep NN before entering memory module")
+        # #Input matrices are of size : dim * embed
+        # self.W_nn = nn_utils.normal_param(std=0.1, shape=(self.dim,self.dim ))
+        # # self.W_nn = nn_utils.normal_param(std=0.1, shape=(self.dim, self.dim))
+        # self.b_nn = nn_utils.constant_param(value=0.0, shape=(self.dim,self.dim))
+        # # self.b_nn_fact = nn_utils.constant_param(value=0.0, shape=(self.dim,))
+
+        self.nn_q = self.q_q.reshape((1, self.dim))
+        self.nn_inp = self.inp_c.copy()
+        # print("dims of q ",self.nn_q.ndim)
+        # print("dims of inp ",self.nn_inp.ndim)
+        # self.nn_op =  T.concatenate([self.nn_q, self.nn_inp], axis=0)
+        self.W_nn_1 = nn_utils.normal_param(std=0.1, shape=(self.dim,self.dim ))
+        self.b_nn_1 = nn_utils.constant_param(value=0.0, shape=(self.dim,self.dim))
+        self.nn_q, self.nn_inp = self.nn_update(self.nn_q,self.nn_inp, self.W_nn_1, self.b_nn_1)
+
+
+        self.W_nn_2 = nn_utils.normal_param(std=0.1, shape=(self.dim,self.dim ))
+        self.b_nn_2 = nn_utils.constant_param(value=0.0, shape=(self.dim,self.dim))
+        self.nn_q, self.nn_inp = self.nn_update(self.nn_q,self.nn_inp, self.W_nn_2, self.b_nn_2)
+
+        self.W_nn_3 = nn_utils.normal_param(std=0.1, shape=(self.dim,self.dim ))
+        self.b_nn_3 = nn_utils.constant_param(value=0.0, shape=(self.dim,self.dim))
+        self.nn_q, self.nn_inp = self.nn_update(self.nn_q,self.nn_inp, self.W_nn_3, self.b_nn_3)
+
+        self.q_q = self.nn_q.reshape((self.dim,))
+        self.q_list.append(self.q_q)
+        print("dims of q finally: ",self.q_q.ndim)
+
         print "==> creating parameters for memory module"
         self.W_mem_res_in = nn_utils.normal_param(std=0.1, shape=(self.dim, self.dim))
         self.W_mem_res_hid = nn_utils.normal_param(std=0.1, shape=(self.dim, self.dim))
@@ -151,14 +179,15 @@ class DMN_squad:
             raise Exception("invalid answer_module")
         
         
-        print "==> collecting all parameters"
+        print("==> collecting all parameters")
         self.params = [self.W_inp_res_in, self.W_inp_res_hid, self.b_inp_res, 
                   self.W_inp_upd_in, self.W_inp_upd_hid, self.b_inp_upd,
                   self.W_inp_hid_in, self.W_inp_hid_hid, self.b_inp_hid,
                   self.W_mem_res_in, self.W_mem_res_hid, self.b_mem_res, 
                   self.W_mem_upd_in, self.W_mem_upd_hid, self.b_mem_upd,
                   self.W_mem_hid_in, self.W_mem_hid_hid, self.b_mem_hid,
-                  self.W_b, self.W_1, self.W_2, self.b_1, self.b_2, self.W_a]
+                  self.W_b, self.W_1, self.W_2, self.b_1, self.b_2, self.W_a,
+                  self.W_nn_1, self.b_nn_1, self.W_nn_2, self.b_nn_2, self.W_nn_3, self.b_nn_3]        
         
         if self.answer_module == 'recurrent':
             self.params = self.params + [self.W_ans_res_in, self.W_ans_res_hid, self.b_ans_res, 
@@ -200,6 +229,42 @@ class DMN_squad:
             gradient = T.grad(self.loss, self.params)
             self.get_gradient_fn = theano.function(inputs=[self.input_var, self.q_var,self.answer_var, self.input_mask_var], outputs=gradient,mode=theano.Mode(optimizer="fast_compile"),on_unused_input='ignore')
 
+    def nn_update_v1(self, nn_q, nn_inp, W_nn, b_nn):
+        print("dim of q is ",nn_q.ndim," and inp is ",nn_inp.ndim, " dim is ",self.dim)
+        qf = T.concatenate([nn_q , nn_inp], axis = 1)
+        print("qf shape ",qf.ndim)
+        # W_nn_t = W_nn[:qf.shape[0], :]
+        b_nn_t = b_nn[:qf.shape[0], :]
+        # print("weight shape ",W_nn_t.ndim," and bias shape ",b_nn_t.shape)
+        # nn_op = T.nnet.sigmoid(T.dot(qf, W_nn_t.T) +  b_nn_t)
+        nn_op = T.nnet.sigmoid(T.dot(qf, W_nn) +  b_nn_t)
+        print("layer op shape" , nn_op.ndim)
+        nn_q = nn_op[:1, :]
+        # nn_q = self.nn_q.reshape((self.q_q.shape))
+        nn_inp = nn_op[1:qf.shape[0], :]
+        print("HERE ! dim of q is ",nn_q.ndim," and inp is ",nn_inp.ndim)
+        return nn_q, nn_inp
+
+
+    def nn_update(self, nn_q, nn_inp, W_nn, b_nn):
+        nn_q = T.tile(nn_q,(nn_inp.shape[0], 1))
+        print("hit this")
+        qf  = nn_q * nn_inp
+        # qf = nn_q + nn_inp
+        print("qf shape ",qf.ndim)
+        b_nn_t = b_nn[:qf.shape[0], :]
+        nn_op = T.nnet.sigmoid(T.dot(qf, W_nn) +  b_nn_t)
+        print("layer op shape" , nn_op.ndim)
+        # nn_q = nn_op[:1, :]
+        nn_q = self.max_pool(nn_op)
+        print("HERE ! dim of q is ",nn_q.ndim," and inp is ",nn_inp.ndim)
+        return nn_q, nn_inp
+
+    def max_pool(self, nn_op):
+        self.sum = T.sum(nn_op, axis=1)
+        # print("shape of sum ",sum.shape)
+        self.idx = T.argmax(self.sum)
+        return nn_op[self.idx:self.idx+1, :]
     
     def GRU_update(self, h, x, W_res_in, W_res_hid, b_res,
                          W_upd_in, W_upd_hid, b_upd,
@@ -220,7 +285,9 @@ class DMN_squad:
         _h = T.tanh(T.dot(W_hid_in, x) + r * T.dot(W_hid_hid, h) + b_hid)
         return z * h + (1 - z) * _h
     
-    
+    def PrintTensorShape(self, name, tensor):
+        print(name, " Shape: ", tensor.shape.eval())
+
     def input_gru_step(self, x, prev_h):
         return self.GRU_update(prev_h, x, self.W_inp_res_in, self.W_inp_res_hid, self.b_inp_res, 
                                      self.W_inp_upd_in, self.W_inp_upd_hid, self.b_inp_upd,

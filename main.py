@@ -52,10 +52,10 @@ network_name = args.prefix + '%s.mh%d.n%d.bs%d%s%s%s.babi%s' % (
 
 babi_train_raw, babi_test_raw = utils.get_babi_raw(args.babi_id, args.babi_test_id)
 
-if args.network == 'dmn_squad':
-    word2vec = utils.load_custom_embedding(args.word_vector_size)
-else:
-    word2vec = utils.load_glove(args.word_vector_size)
+#if args.network == 'dmn_squad':
+#    word2vec = utils.load_custom_embedding(args.word_vector_size)
+#else:
+word2vec = utils.load_glove(args.word_vector_size)
 #word2vec = utils.load_glove(args.word_vector_size)
 #word2vec = utils.load_custom_embedding(args.word_vector_size)
 args_dict = dict(args._get_kwargs())
@@ -138,9 +138,9 @@ def do_epoch(mode, epoch, skipped=0):
             # TODO: save the state sometimes
             if (i % args.log_every == 0):
                 cur_time = time.time()
-                print ("  %sing: %d.%d / %d \t loss: %.3f \t avg_loss: %.3f \t skipped: %d \t %s \t time: %.2fs" % 
-                    (mode, epoch, i * args.batch_size, batches_per_epoch * args.batch_size, 
-                     current_loss, avg_loss / (i + 1), skipped, log, cur_time - prev_time))
+                #print ("  %sing: %d.%d / %d \t loss: %.3f \t avg_loss: %.3f \t skipped: %d \t %s \t time: %.2fs" % 
+                 #   (mode, epoch, i * args.batch_size, batches_per_epoch * args.batch_size, 
+                 #    current_loss, avg_loss / (i + 1), skipped, log, cur_time - prev_time))
                 prev_time = cur_time
         
         if np.isnan(current_loss):
