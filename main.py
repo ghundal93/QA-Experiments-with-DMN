@@ -4,7 +4,7 @@ import sklearn.metrics as metrics
 import argparse
 import time
 import json
-import evaluate-v1.1.py
+import evaluate_v1_1
 
 import utils
 import nn_utils
@@ -129,7 +129,7 @@ def do_epoch(mode, epoch, skipped=0):
             for x in answers:
                 y_true.append(x)
             if args.network == 'dmn_squad':
-                for x in prediction:
+                for x in prediction.argmax(axis=1):
                     y_pred.append(x)
             else:
                 for x in prediction.argmax(axis=1):

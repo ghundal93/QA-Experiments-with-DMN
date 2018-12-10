@@ -139,10 +139,10 @@ class DMN_squad:
             dummy = theano.shared(np.zeros((self.vocab_size, ), dtype=floatX))
             results, updates = theano.scan(fn=answer_step,
                 outputs_info=[last_mem, T.zeros_like(dummy)],
-                n_steps=1)
+                n_steps=self.answer_var.shape[0])
             print("results[1] dim:,",results[1].ndim)
             print("results[1] type:,",results[1].type)
-            self.prediction = results[1][-1]
+            self.prediction = results[1]
             print("pred dim:,",self.prediction.ndim)
             print("pred  type:,",self.prediction.type)
 
@@ -170,7 +170,8 @@ class DMN_squad:
         if self.answer_module != 'recurrent':
             self.loss_ce = T.nnet.categorical_crossentropy(self.prediction.dimshuffle('x', 0) ,T.stack([self.answer_var])).mean()
         else:
-            self.loss_ce = T.nnet.categorical_crossentropy(self.prediction.dimshuffle('x', 0), self.answer_var)[0]
+            #self.loss_ce = T.nnet.categorical_crossentropy(self.prediction.dimshuffle('x', 0), self.answer_var)[0]
+            self.loss_ce = T.nnet.categorical_crossentropy(self.prediction , self.answer_var)[0]
 
         if self.l2 > 0:
             self.loss_l2 = self.l2 * nn_utils.l2_reg(self.params)
@@ -297,7 +298,7 @@ class DMN_squad:
             q = x["Q"].lower().split(' ')
             q = [w for w in q if len(w) > 0]
             a = x["A"].lower().split(' ')
-            a = [w for w in q if len(w) > 0]
+            a = [w for w in a if len(w) > 0]
 
             inp_vector = [utils.process_word(word = w, 
                                         word2vec = self.word2vec, 
@@ -404,11 +405,12 @@ class DMN_squad:
         true_sent_list = []
         pred_sent_list = []
         for i in range(0,len(y_true_sent)):
+            print(len(y_true_sent))
             true_sent = ""
             pred_sent = ""
             for j in range(0,len(y_true_sent[i])):
-                true_sent += self.ivocab[y_true_sent[i][j]]
-                pred_sent += self.ivocab[y_pred_sent[i][j]]
+                true_sent += " "+self.ivocab[y_true_sent[i][j]]
+                pred_sent += " "+self.ivocab[y_pred_sent[i][j]]
             print("Expected answer:" + true_sent+ " , Predicted answer:" + pred_sent)
             true_sent_list.append(true_sent)
             pred_sent_list.append(pred_sent)
