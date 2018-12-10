@@ -40,14 +40,17 @@ def f1_score(prediction, ground_truth):
 
 
 def exact_match_score(prediction, ground_truth):
+    print("prediction:"+prediction+",ground_truth:"+ground_truth)
     return (normalize_answer(prediction) == normalize_answer(ground_truth))
 
 
 def metric_max_over_ground_truths(metric_fn, prediction, ground_truths):
     scores_for_ground_truths = []
+    i = 0
     for ground_truth in ground_truths:
-        score = metric_fn(prediction, ground_truth)
+        score = metric_fn(prediction[i], ground_truth)
         scores_for_ground_truths.append(score)
+        i += 1
     return max(scores_for_ground_truths)
 
 
@@ -77,15 +80,15 @@ def evaluate(dataset, predictions):
 def evaluate_babified(ground_truths, predictions):
     f1 = exact_match = 0
     total = len(ground_truths)
-    for i in range(0,total):
-        exact_match += metric_max_over_ground_truths(
-            exact_match_score, predictions[i], ground_truths[i])
-        f1 += metric_max_over_ground_truths(
-            f1_score, predictions[i], ground_truths[i])
+    #for i in range(0,total):
+    exact_match += metric_max_over_ground_truths(
+            exact_match_score, predictions, ground_truths)
+    f1 += metric_max_over_ground_truths(
+            f1_score, predictions, ground_truths)
 
     exact_match = 100.0 * exact_match / total
     f1 = 100.0 * f1 / total
-
+    #print("TOTAL", total)
     return {'exact_match': exact_match, 'f1': f1}
 
 

@@ -129,10 +129,10 @@ class DMN_squad:
                                   self.W_ans_hid_in, self.W_ans_hid_hid, self.b_ans_hid)
                 
                 y = nn_utils.softmax(T.dot(self.W_a, a))
-                print("ydim:",y.ndim)
-                print("ytype",y.type)
-                print("adim",a.ndim)
-                print("atype",a.type)
+                #print("ydim:",y.ndim)
+                #print("ytype",y.type)
+                #print("adim",a.ndim)
+                #print("atype",a.type)
                 return [a, y]
             
             # TODO: add conditional ending
@@ -140,11 +140,11 @@ class DMN_squad:
             results, updates = theano.scan(fn=answer_step,
                 outputs_info=[last_mem, T.zeros_like(dummy)],
                 n_steps=self.answer_var.shape[0])
-            print("results[1] dim:,",results[1].ndim)
-            print("results[1] type:,",results[1].type)
+            #print("results[1] dim:,",results[1].ndim)
+            #print("results[1] type:,",results[1].type)
             self.prediction = results[1]
-            print("pred dim:,",self.prediction.ndim)
-            print("pred  type:,",self.prediction.type)
+            #print("pred dim:,",self.prediction.ndim)
+            #print("pred  type:,",self.prediction.type)
 
         
         else:
@@ -338,7 +338,7 @@ class DMN_squad:
     
     def get_batches_per_epoch(self, mode):
         if (mode == 'train'):
-            return 1000
+            return 200
         elif (mode == 'test'):
             return 1000
         else:
@@ -405,7 +405,7 @@ class DMN_squad:
         true_sent_list = []
         pred_sent_list = []
         for i in range(0,len(y_true_sent)):
-            print(len(y_true_sent))
+            #print(len(y_true_sent))
             true_sent = ""
             pred_sent = ""
             for j in range(0,len(y_true_sent[i])):

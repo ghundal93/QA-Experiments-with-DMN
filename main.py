@@ -4,7 +4,7 @@ import sklearn.metrics as metrics
 import argparse
 import time
 import json
-import evaluate_v1_1
+from evaluate_v1_1 import evaluate_babified
 
 import utils
 import nn_utils
@@ -133,12 +133,7 @@ def do_epoch(mode, epoch, skipped=0):
                     y_pred.append(x)
             else:
                 for x in prediction.argmax(axis=1):
-                    y_pred.append(x)
-            
-            if args.network == 'dmn_squad':
-                [ground_truth,predictions] = dmn.print_prediction_sentences(y_true,y_pred);
-            else:
-                dmn.print_predictions(y_true,y_pred);
+                    y_pred.append(x)  
 
             # TODO: save the state sometimes
             if (i % args.log_every == 0):
@@ -151,11 +146,14 @@ def do_epoch(mode, epoch, skipped=0):
         if np.isnan(current_loss):
             print "==> current loss IS NaN. This should never happen :) " 
             exit()
-
+    if args.network == 'dmn_squad':
+        ground_truth,predictions = dmn.print_prediction_sentences(y_true,y_pred);
+    else:
+        dmn.print_predictions(y_true,y_pred)
     avg_loss /= batches_per_epoch
     print "\n  %s loss = %.5f" % (mode, avg_loss)
-    print "confusion matrix:"
-    print metrics.confusion_matrix(y_true, y_pred)
+    #print "confusion matrix:"
+    #print metrics.confusion_matrix(y_true, y_pred)
     if args.network == 'dmn_squad':
         eval_metric = evaluate_babified(ground_truth,predictions)
         print "exact_match: %d,  F1 score: %.2f" % (eval_metric['exact_match'],eval_metric['f1'])
