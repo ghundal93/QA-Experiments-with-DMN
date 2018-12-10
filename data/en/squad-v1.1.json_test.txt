@@ -28,7 +28,7 @@
 28 What team was the NFC champion?	Carolina Panthers	2
 29 Who won Super Bowl 50?	Denver Broncos	2
 30 Super Bowl 50 determined the NFL champion for what season?	2015	1
-31 Which team won Super Bowl 50	Denver Broncos 	2.
+31 Which team won Super Bowl 50?	Denver Broncos 	2.
 32 Where was Super Bowl 50 held?	Santa Clara  California	3
 33 The name of the NFL championship game is?	Super Bowl	1
 34 What 2015 NFL team one the AFC playoff?	Denver Broncos	2
@@ -620,7 +620,7 @@
 5 What health company was a Super Bowl sponsor?	Dignity Health	2
 6 What clothing company was a Super Bowl sponsor?	Gap	2
 7 What petroleum company was a Super Bowl sponsor?	Chevron	2
-8 Which committee made an effort to invite companies owned by people who are transgender or gay to take part in contract business associated with Super Bowl 50	Super Bowl 50 Host Committee 	1.
+8 Which committee made an effort to invite companies owned by people who are transgender or gay to take part in contract business associated with Super Bowl 50?	Super Bowl 50 Host Committee 	1.
 9 How much money did the committee raise?	over 40 million	2
 10 How did the committee raise the money?	sponsors	2
 11 What is the Super Bowl program called that gives local companies business opportunities for the Super Bowl?	Business Connect	1
@@ -1586,8 +1586,8 @@
 6 Norman adventurers founded the Kingdom of Sicily under Roger II after conquering southern Italy on the Saracens and Byzantines and an expedition on behalf of their duke William the Conqueror led to the Norman conquest of England at the Battle of Hastings in 1066.
 7 Norman cultural and military influence spread from these new European centres to the Crusader states of the Near East where their prince Bohemond I founded the Principality of Antioch in the Levant to Scotland and Wales in Great Britain to Ireland and to the coasts of north Africa and the Canary Islands.
 8 Who was the duke in the battle of Hastings?	William the Conqueror	6
-9 Who ruled the duchy of Normandy	Richard I 	4.
-10 What religion were the Normans	Catholic 	2.
+9 Who ruled the duchy of Normandy?	Richard I 	4.
+10 What religion were the Normans?	Catholic 	2.
 1 The English name Normans comes from the French words NormansNormanz plural of Normant modern French normand which is itself borrowed from Old Low Franconian Nortmann Northman or directly from Old Norse Norðmaðr Latinized variously as Nortmannus Normannus or Nordmannus recorded in Medieval Latin 9th century to mean Norseman Viking.
 2 What is the original meaning of the word Norman?	Viking	1
 3 When was the Latin version of the word Norman first recorded?	9th century	1
@@ -1598,7 +1598,7 @@
 5 The territory was roughly equivalent to the old province of Rouen and reproduced the Roman administrative structure of Gallia Lugdunensis II part of the former Gallia Lugdunensis.
 6 When was the Duchy of Normandy founded?	911	2
 7 Who did Rollo sign the treaty of SaintClairsurEpte with?	King Charles III	2
-8 What river originally bounded the Duchy	Seine 	4.
+8 What river originally bounded the Duchy?	Seine 	4.
 1 Before Rollos arrival its populations did not differ from Picardy or the ÎledeFrance which were considered Frankish.
 2 Earlier Viking settlers had begun arriving in the 880s but were divided between colonies in the east Roumois and Pays de Caux around the low Seine valley and in the west in the Cotentin Peninsula and were separated by traditional pagii where the population remained about the same with almost no foreign settlers.
 3 Rollos contingents who raided and ultimately settled Normandy and parts of the Atlantic coast included Danes Norwegians Norse–Gaels Orkney Vikings possibly Swedes and AngloDanes from the English Danelaw under Norse control.
@@ -1624,8 +1624,8 @@
 2 The Hauteville family achieved princely rank by proclaiming prince Guaimar IV of Salerno Duke of Apulia and Calabria.
 3 He promptly awarded their elected leader William Iron Arm with the title of count in his capital of Melfi.
 4 The Drengot family thereafter attained the principality of Capua and emperor Henry III legally ennobled the Hauteville leader Drogo as dux et magister Italiae comesque Normannorum totius Apuliae et Calabriae Duke and Master of Italy and Count of the Normans of all Apulia and Calabria in 1047.
-5 What was the name of the leader ennobled by Henry III	Drogo 	4.
-6 Who was Count of Melfi	William Iron Arm 	3.
+5 What was the name of the leader ennobled by Henry III?	Drogo 	4.
+6 Who was Count of Melfi?	William Iron Arm 	3.
 1 From these bases the Normans eventually captured Sicily and Malta from the Saracens under the leadership of the famous Robert Guiscard a Hauteville and his younger brother Roger the Great Count.
 2 Rogers son Roger II of Sicily was crowned king in 1130 exactly one century after Rainulf was crowned count by Antipope Anacletus II.
 3 The Kingdom of Sicily lasted until 1194 when it was transferred to the House of Hohenstaufen through marriage.
@@ -1678,7 +1678,7 @@
 10 The Normans were now free to penetrate into the hinterland they took Ioannina and some minor cities in southwestern Macedonia and Thessaly before appearing at the gates of Thessalonica.
 11 Dissension among the high ranks coerced the Normans to retreat to Italy.
 12 They lost Dyrrachium Valona and Butrint in 1085 after the death of Robert.
-13 What was the name of the count of Apulia 	Robert Guiscard 	1.
+13 What was the name of the count of Apulia ?	Robert Guiscard 	1.
 14 When did Dyrrachium  fall to the Normans?	1082	9
 15 How many men were in Roberts army?	30 000	3
 1 A few years after the First Crusade in 1107 the Normans under the command of Bohemond Roberts son landed in Valona and besieged Dyrrachium using the most sophisticated military equipment of the time but to no avail.
@@ -1831,7 +1831,7 @@
 5 Who sold the rights?	Maciot de Bethencourt	2
 1 The customary law of Normandy was developed between the 10th and 13th centuries and survives today through the legal systems of Jersey and Guernsey in the Channel Islands.
 2 Norman customary law was transcribed in two customaries in Latin by two judges for use by them and their colleagues These are the Très ancien coutumier Very ancient customary authored between 1200 and 1245 and the Grand coutumier de Normandie Great customary of Normandy originally Summa de legibus Normanniae in curia laïcali authored between 1235 and 1245.
-3 Where are Jersey and Guernsey	Channel Islands 	1.
+3 Where are Jersey and Guernsey?	Channel Islands 	1.
 4 How many customaries does Norman customary law have?	two	2
 1 Norman architecture typically stands out as a new stage in the architectural history of the regions they subdued.
 2 They spread a unique Romanesque idiom to England and Italy and the encastellation of these regions with keeps in their north French style fundamentally altered the military landscape.
@@ -2134,7 +2134,7 @@
 7 When was Tesla Electric Company formed?	April 1887	4
 8 Where would profits go in this new company?	⅓ to Tesla  ⅓ to Peck and Brown  and ⅓ to fund development	4
 9 Where was a lab for Tesla set up?	Manhattan	5
-10 When did Tesla first encounter Alfred S Brown	1886 	1.
+10 When did Tesla first encounter Alfred S Brown?	1886 	1.
 11 What was Browns job?	Western Union superintendent	1
 12 Who else did Tesla make the acquaintance of in 1886?	Charles F Peck	1
 13 Where was Teslas new lab?	89 Liberty Street in Manhattan	5
@@ -2160,7 +2160,7 @@
 7 Why did Westinghouse not secure a patent for a similar motor?	decided Teslas patent would probably control the market	3
 8 Who arranged for Tesla to demonstrate his system at the IEEE?	Thomas Commerford Martin	1
 9 Who edited Electrical World magazine?	Thomas Commerford Martin	1
-10 Who wanted to acquire patents an AC motor	George Westinghouse 	2.
+10 Who wanted to acquire patents an AC motor?	George Westinghouse 	2.
 11 Who other than Tesla did Westinghouse consider for the patents?	Galileo Ferraris	3
 12 What was Galileo Ferraris?	physicist	3
 13 What was the name of Westinghouses company?	Westinghouse Electric  Manufacturing Company	2
@@ -2195,8 +2195,8 @@
 9 Which current type was Tesla in favor of?	AC	1
 10 Who was Westinghouses chief rival?	Thomas Edison	1
 11 When did the rivalry between Westinghouse and Edison reach its peak?	1888	1
-12 What caused the delay during the development of the AC motor	financial strain 	3.
-13 Who took control of Edisons company	General Electric 	4.
+12 What caused the delay during the development of the AC motor?	financial strain 	3.
+13 Who took control of Edisons company?	General Electric 	4.
 1 In 1893 George Westinghouse won the bid to light the 1893 Worlds Columbian Exposition in Chicago with alternating current beating out a General Electric bid by one million dollars.
 2 This Worlds Fair devoted a building to electrical exhibits.
 3 It was a key event in the history of AC power as Westinghouse demonstrated the safety reliability and efficiency of a fully integrated alternating current system to the American public.
@@ -2225,7 +2225,7 @@
 12 Who was the head of the company?	Richard Dean Adams	1
 13 When did Richard Dean Adams make his inquiry?	1893	1
 14 What type of system did Tesla suggest to Adams?	twophased system	4
-15 What was the advantage of the twophased system 	most reliable 	4.
+15 What was the advantage of the twophased system ?	most reliable 	4.
 1 The mid 1890s saw the conglomerate General Electric backed by financier J P Morgan involved in takeover attempts and patent battles with Westinghouse Electric.
 2 Although a patentsharing agreement was signed between the two companies in 1896 Westinghouse was still cashstrapped from the financial warfare.
 3 To secure further loans Westinghouse was forced to revisit Teslas AC patent which bankers considered a financial strain on the company at that point Westinghouse had paid out an estimated 200000 in licenses and royalties to Tesla Brown and Peck.
@@ -2362,7 +2362,7 @@
 7 Butterflies were electrified swirling in circles with blue halos of St Elmos fire around their wings.
 8 What natural phenomenon did Tesla create artificially?	lightning	1
 9 How big were his artificial bolts?	135 feet	1
-10 From what distance could the artificial thunder be heard	15 miles 	2.
+10 From what distance could the artificial thunder be heard?	15 miles 	2.
 11 What happened to nearby light bulbs?	glowed even when turned off	5
 12 What was notable about the butterflies?	Butterflies were electrified	7
 1 While experimenting Tesla inadvertently faulted a power station generator causing a power outage.
@@ -2421,7 +2421,7 @@
 3 How many horsepower did Teslas bladeless turbine have?	200	1
 4 At what speed did the turbine operate?	16 000 rpm	1
 5 When did Tesla first show off the turbine?	1906	1
-6 What was the horsepower put out by the turbines in Waterside Power Station	100–5000 hp 	2.
+6 What was the horsepower put out by the turbines in Waterside Power Station?	100–5000 hp 	2.
 1 Tesla invented a steampowered mechanical oscillator—Teslas oscillator.
 2 While experimenting with mechanical oscillators at his Houston Street lab Tesla allegedly generated a resonance of several buildings.
 3 As the speed grew it is said that the machine oscillated at the resonance frequency of his own building and belatedly realizing the danger he was forced to use a sledge hammer to terminate the experiment just as the police arrived.
@@ -2571,7 +2571,7 @@
 3 The ashes are displayed in a goldplated sphere on a marble pedestal in the Nikola Tesla Museum.
 4 Where was Teslas property sent?	Belgrade	1
 5 Who was Teslas nephew?	Sava Kosanović	1
-6 Who transported Teslas ashes from the US	Charlotte Muzar 	2.
+6 Who transported Teslas ashes from the US?	Charlotte Muzar 	2.
 7 Where were the ashes sent?	Belgrade	1
 8 When are the ashes now?	Nikola Tesla Museum	3
 1 Tesla obtained around 300 patents worldwide for his inventions.
@@ -2740,12 +2740,12 @@
 1 Teslas legacy has endured in books films radio TV music live theater comics and video games.
 2 The impact of the technologies invented or envisioned by Tesla is a recurring theme in several types of science fiction.
 3 What kind of fiction is Teslas work featured in?	science fiction	2
-4 What kind of media can references to Tesla be found in	books films radio TV music live theater comics and video games 	1.
+4 What kind of media can references to Tesla be found in?	books films radio TV music live theater comics and video games 	1.
 5 How many types of science fiction have been impacted by Tesla?	several	2
 1 On Teslas 75th birthday in 1931 Time magazine put him on its cover.
 2 The cover caption All the worlds his power house noted his contribution to electrical power generation.
 3 He received congratulatory letters from more than 70 pioneers in science and engineering including Albert Einstein.
-4 On which magazines cover did Tesla appear in 1931	Time magazine 	1.
+4 On which magazines cover did Tesla appear in 1931?	Time magazine 	1.
 5 For what occasion was he put on the cover?	75th birthday	1
 6 To which technology type that Tesla worked on did the caption refer to?	electrical power generation	2
 7 What famous person congratulated him?	Einstein	3
@@ -2869,7 +2869,7 @@
 7 Clearly this model is not meant to be a physically realizable model it is just a theoretically interesting abstract machine that gives rise to particularly interesting complexity classes.
 8 For examples see nondeterministic algorithm.
 9 What is generally considered to be the most basic iteration of a Turing machine?	A deterministic Turing machine	1
-10 What fixed set of factors determine the actions of a deterministic Turing machine	rules 	1.
+10 What fixed set of factors determine the actions of a deterministic Turing machine?	rules 	1.
 11 What is the term used to identify a deterministic Turing machine that has additional random bits?	A probabilistic Turing machine	2
 12 What type of Turing machine is capable of multiple actions and extends into a variety of computational paths?	A nondeterministic Turing machine	5
 13 What is the term given to algorithms that utilize random bits?	randomized algorithms	4
@@ -2981,7 +2981,7 @@
 5 Thus there are pairs of complexity classes such that one is properly included in the other.
 6 Having deduced such proper set inclusions we can proceed to make quantitative statements about how much more additional time or space is needed in order to increase the number of problems that can be solved.
 7 What is an example of a measurement within a complexity class that would create a bigger set of problems if the bounds were relaxed?	computation time	1
-8 In what expression can one expect to find DTIMEn	DTIMEn2 	2.
+8 In what expression can one expect to find DTIMEn?	DTIMEn2 	2.
 9 What theorems are responsible for determining questions of time and space requirements?	time and space hierarchy theorems	3
 10 Resources are constrained by hierarchy theorems to produce what?	a proper hierarchy on the classes defined	4
 11 What kind of statement is made in the effort of establishing the time and space requirements needed to enhance the ultimate number of problems solved?	quantitative statements	6
@@ -3088,11 +3088,11 @@
 4 It has been shown that if these two complexity classes are not equal then P is not equal to NP.
 5 In what complexity class do complement problems of NP problems exist?	coNP	1
 6 How do the yesno answers of a complement problem of NP appear?	reversed	2
-7 What is commonly believed to be the value relationship between P and coNP	not equal 	3.
+7 What is commonly believed to be the value relationship between P and coNP?	not equal 	3.
 8 What implication can be derived for P and NP if P and coNP are established to be unequal?	P is not equal to NP	4
 1 Similarly it is not known if L the set of all problems that can be solved in logarithmic space is strictly contained in P or equal to P Again there are many complexity classes between the two such as NL and NC and it is not known if they are distinct or equal classes.
 2 What variable is associated with all problems solved within logarithmic space?	L	1
-3 Though unkown what are the most commonly ascribed attributes of L in relation to P	strictly contained in P or equal to P 	1.
+3 Though unkown what are the most commonly ascribed attributes of L in relation to P?	strictly contained in P or equal to P 	1.
 4 What lies between L and P that prevents a definitive determination of the relationship between L and P?	complexity classes	1
 5 What are two complexity classes between L and P?	NL and NC	1
 6 What is unknown about the complexity classes between L and P that further prevents determining the value relationship between L and P?	if they are distinct or equal classes	1
@@ -3175,7 +3175,7 @@
 1 Religious and spiritual teachers such as gurus mullahs rabbis pastorsyouth pastors and lamas may teach religious texts such as the Quran Torah or Bible.
 2 What is another general name for a religious teacher?	spiritual	1
 3 What type of text is the Quran?	religious	1
-4 Name a text that might be used by a religious teacher to teach	the Quran Torah or Bible 	1.
+4 Name a text that might be used by a religious teacher to teach?	the Quran Torah or Bible 	1.
 5 Who would generally teach from a work like the Quran Torah or Bible?	Religious and spiritual teachers	1
 1 Teaching may be carried out informally within the family which is called homeschooling or in the wider community.
 2 Formal teaching may be carried out by paid professionals.
@@ -3308,7 +3308,7 @@
 4 During detention students normally have to sit in a classroom and do work write lines or a punishment essay or sit quietly.
 5 What is a common punishment in Singapore?	detention	1
 6 What is a common punishment in the UK and Ireland?	detention	1
-7 Where does the pupil remain while in detention	in schools 	1.
+7 Where does the pupil remain while in detention?	in schools 	1.
 8 If a detention requires a pupil to just sit there how are they required to sit?	quietly	4
 9 If a detention asks the student to write what do they write?	lines or a punishment essay	4
 1 A modern example of school discipline in North America and Western Europe relies upon the idea of an assertive teacher who is prepared to impose their will upon a class.
@@ -3452,7 +3452,7 @@
 5 What when combined with a large workload can contribute to occupational stress?	long hours	2
 6 What is something that teachers are at a high risk for?	occupational burnout	3
 7 What can be the result of a change in an organization?	stress	1
-8 What on the part of a teacher can result in a decrease in student performance	occupational stress 	1.
+8 What on the part of a teacher can result in a decrease in student performance?	occupational stress 	1.
 1 A 2000 study found that 42 of UK teachers experienced occupational stress twice the figure for the average profession.
 2 A 2012 study found that teachers experienced double the rate of anxiety depression and stress than average workers.
 3 How many teachers were found to have felt occupational stress in a 2000 study?	42	1
@@ -4447,7 +4447,7 @@
 9 What action by Luther added to antisemitism in Germany?	antiJewish rhetoric	2
 10 What later actions by the Nazis could be traced back to Luthers rhetoric?	attacks on Jews	2
 11 Whose writings were widely quoted by the Third Reich?	Luther	4
-12 How did Der Sturmer describe Luthers On the Jews and their Lies	radically antiSemitic 	6.
+12 How did Der Sturmer describe Luthers On the Jews and their Lies?	radically antiSemitic 	6.
 1 On 17 December 1941 seven Protestant regional church confederations issued a statement agreeing with the policy of forcing Jews to wear the yellow badge since after his bitter experience Luther had already suggested preventive measures against the Jews and their expulsion from German territory.
 2 According to Daniel Goldhagen Bishop Martin Sasse a leading Protestant churchman published a compendium of Luthers writings shortly after Kristallnacht for which Diarmaid MacCulloch Professor of the History of the Church in the University of Oxford argued that Luthers writing was a blueprint.
 3 Sasse applauded the burning of the synagogues and the coincidence of the day writing in the introduction On 10 November 1938 on Luthers birthday the synagogues are burning in Germany.
@@ -4746,7 +4746,7 @@
 3 The USGS has released a California Earthquake forecast which models Earthquake occurrence in California.
 4 Which fault can produce a magnitude earthquake of 80?	San Andreas	1
 5 What magnitude of earthquake can many faults produce?	67	1
-6 Other than the San Jacinto Fault and the Elsinore Fault name one other fault	Puente Hills 	2.
+6 Other than the San Jacinto Fault and the Elsinore Fault name one other fault?	Puente Hills 	2.
 7 Which organization released a California Earthquake forecast?	USGS	3
 8 The earthquake forecast models what features of earthquakes in California?	occurrence	3
 1 Southern California is divided culturally politically and economically into distinctive regions each containing its own culture and atmosphere anchored usually by a city with both national and sometimes global recognition which are often the hub of economic activity for its respective region and being home to many tourist destinations.
@@ -6291,7 +6291,7 @@
 6 At even higher low earth orbit altitudes sufficient atomic oxygen is present to cause erosion for spacecraft.
 7 Oxygen is released in cellular respiration by?	photosynthesis	3
 8 Photosynthesis uses which energy to for oxygen from water?	sunlight	3
-9  Helps the biospher from UV	highaltitude ozone layer 	5.
+9  Helps the biospher from UV?	highaltitude ozone layer 	5.
 10 What element is found in most organic organisms?	oxygen	1
 11 In what major portion of living things is oxygen found?	water	2
 12 What life process produces oxygen in the presence of light?	photosynthesis	3
@@ -6331,7 +6331,7 @@
 5 What inventor built on to the findings of Philo of  Byzantium?	Leonardo da Vinci	4
 6 Pneumatica was written by what Greek writer?	Philo of Byzantium	1
 7 In what year was the first known experiments on combustion and air conducted?	2nd century BCE	1
-8 Philo of Byzantium  surmised that air converted to fire	incorrectly 	3.
+8 Philo of Byzantium  surmised that air converted to fire?	incorrectly 	3.
 9 What early Greek wrote about experiments on air and combustion?	Philo of Byzantium	1
 10 What did Philo incorrectly assume that the air became?	fire	3
 11 What was the title of Philos work?	Pneumatica	2
@@ -6344,7 +6344,7 @@
 5 What is needed to make combustion happen?	heat or a spark	2
 6 Combustion is caused by an oxidant and a fuel What role does oxygen play in combustion?	Oxygen is the oxidant	3
 7 Peroxides nitrates and dichromates are examples of what type of compounds?	compounds of oxygen with a high oxidative	4
-8 Although not a fuel   is the chemical compound the generates the most occurrence of explosions	Oxygen 	3.
+8 Although not a fuel   is the chemical compound the generates the most occurrence of explosions?	Oxygen 	3.
 9 What is a spark or heat to the progress of a fire?	ignition event	2
 10 Rather than the fuel what is oxygen to a fire?	oxidant	3
 11 What can concentrated oxygen produce?	rapid combustion	1
@@ -6355,9 +6355,9 @@
 3 The fire that killed the Apollo 1 crew in a launch pad test spread so rapidly because the capsule was pressurized with pure O2 but at slightly more than atmospheric pressure instead of the 1⁄3 normal pressure that would be used in a mission.
 4 k.
 5 What chemical element was the cause of the Apollo 1 disastrous outcome?	pure O	3
-6  In both liquid and gas form can fastly result in an exlposion	oxygen 	2.
-7 To ensure safety of future space missions Oxygen was used at  of the normal pressure	1⁄3 	3.
-8 To reduce the chances of combustion  is required for safely handeling pure O	special training 	2.
+6  In both liquid and gas form can fastly result in an exlposion?	oxygen 	2.
+7 To ensure safety of future space missions Oxygen was used at  of the normal pressure?	1⁄3 	3.
+8 To reduce the chances of combustion  is required for safely handeling pure O?	special training 	2.
 9 What will concentrated oxygen greatly speed up?	combustion	1
 10 Because of the danger inherent in concentrated oxygen what is a concern about keeping it?	storage vessels	2
 11 What does the transport and storage demand for safety in dealing with oxygen?	special training	2
@@ -6368,7 +6368,7 @@
 4 The Earths mantle of much larger mass than the crust is largely composed of silicates of magnesium and iron.
 5 Granite is made up largely of what chemical compound?	oxides of silicon	2
 6 Oxygen exists in the atmosphere by way of what?	carbon dioxide	1
-7 Silicates of magnesium and iron make up of the Earths 	mantle 	4.
+7 Silicates of magnesium and iron make up of the Earths ?	mantle 	4.
 8 In what compound is oxygen found in small amounts in the atmosphere?	carbon dioxide	1
 9 What geologic feature is composed of oxygen oxides?	Earths crustal rock	2
 10 What part of the Earth is composed of mostly of silicates of iron and magnesium?	Earths mantle	4
@@ -6428,7 +6428,7 @@
 7 Azote later became nitrogen in English although it has kept the name in French and several other European languages.
 8 What did Lavoisier conclude was consumed by combustion in his experiments?	air	2
 9 In what way did Lavoisier see that the tin he used in his experiment had increased?	weight	3
-10 What did Lavoisier perceive the air had lost as much as the tin had gained	weight 	3.
+10 What did Lavoisier perceive the air had lost as much as the tin had gained?	weight 	3.
 11 In what year did Lavoisier publish his work on combustion?	1777	4
 12 What second part of air was deemed lifeless by Lavoisier?	azote	5
 1 Trioxygen O3 is usually known as ozone and is a very reactive allotrope of oxygen that is damaging to lung tissue.
@@ -6823,7 +6823,7 @@
 6 Which country is not badly hit by the embargo?	UK	1
 7 What caused UK to have an oil crisis in its own country?	a series of strikes	1
 8 When did the series of strikes happen?	winter of 1973–74	1
-9 Name one country that banned boating driving and flying on Sundays	Germany 	3.
+9 Name one country that banned boating driving and flying on Sundays?	Germany 	3.
 10 Which country rationed gasoline and heating gas?	Sweden	4
 1 Price controls exacerbated the crisis in the US.
 2 The system limited the price of old oil that which had already been discovered while allowing newly discovered oil to be sold at a higher price to encourage investment.
@@ -6901,8 +6901,8 @@
 2 A decade after the 1973 oil crisis Honda Toyota and Nissan affected by the 1981 voluntary export restraints opened US assembly plants and established their luxury divisions Acura Lexus and Infiniti respectively to distinguish themselves from their massmarket brands.
 3 When did Honda Toyota and Nissan open US assembly plants?	A decade after the 1973	2
 4 Name a larger car that Toyota came up with as buyers lamented the small sized compacts?	Toyota Corona Mark II	1
-5 Name an extra that was added to the production of the compacts	power steering 	1.
-6 Name a luxury division of Toyota	Lexus 	2.
+5 Name an extra that was added to the production of the compacts?	power steering 	1.
+6 Name a luxury division of Toyota?	Lexus 	2.
 1 Compact trucks were introduced such as the Toyota Hilux and the Datsun Truck followed by the Mazda Truck sold as the Ford Courier and the Isuzubuilt Chevrolet LUV.
 2 Mitsubishi rebranded its Forte as the Dodge D50 a few years after the oil crisis.
 3 Mazda Mitsubishi and Isuzu had joint partnerships with Ford Chrysler and GM respectively.
@@ -6922,7 +6922,7 @@
 9 Why did GM Ford and Chrysler introduced fuelefficient and small cars to the US market?	An increase in imported cars	1
 10 How many passengers can the Ford Fiesta accommodate?	at least four passengers	2
 11 By which year did the American cars mpg start to improve?	1985	3
-12 Name a luxury model that became popular in the mid1970s	Lincoln Continental 	6.
+12 Name a luxury model that became popular in the mid1970s?	Lincoln Continental 	6.
 13 Which fullsized model cars were not popular?	Chevrolet Bel Air	7
 1 Federal safety standards such as NHTSA Federal Motor Vehicle Safety Standard 215 pertaining to safety bumpers and compacts like the 1974 Mustang I were a prelude to the DOT downsize revision of vehicle categories.
 2 By 1977 GMs fullsized cars reflected the crisis.
@@ -8454,7 +8454,7 @@
 7 Ctenophora are less complex than which other phylum?	bilaterians	2
 8 Which phylum is more complex than sponges?	Ctenophores	1
 9 What does ctenophore use to capture prey?	colloblasts	4
-10 Jellyfish and sea anemones belong to which group	cnidarians 	1.
+10 Jellyfish and sea anemones belong to which group?	cnidarians 	1.
 11 What do ctenophores have that no other animals have?	colloblasts	4
 12 What do ctenophore use to capture their prey?	colloblasts	4
 13 Which two groups have cells bound by intercell connections and membranes muscles a nervous system and sensory organs?	ctenophores and cnidarians	3
@@ -8993,53 +8993,53 @@
 2 This concept contrasted and contradicted the theretofore established principles of preallocation of network bandwidth largely fortified by the development of telecommunications in the Bell System.
 3 The new concept found little resonance among network implementers until the independent work of Donald Davies at the National Physical Laboratory United Kingdom NPL in the late 1960s.
 4 Davies is credited with coining the modern name packet switching and inspiring numerous packet switching networks in Europe in the decade following including the incorporation of the concept in the early ARPANET in the United States.
-5 What did Paul Baran develop 	Paul Baran developed the concept Distributed Adaptive Message Block Switching 	1.
-6 What did Distributed Adaptive Message Block Switching do	provide a faulttolerant efficient routing method for telecommunication messages 	1.
-7 What did this concept contradict 	This concept contrasted and contradicted the theretofore established principles of preallocation of network bandwidth 	2.
-8 What is Donald Davies credited with 	Davies is credited with coining the modern name packet switching and inspiring numerous packet switching networks in Europe 	4.
-9 What did Paul Baran develop in the late 1950s	the concept Distributed Adaptive Message Block Switching 	1.
-10 What was the goal of the system 	to provide a faulttolerant efficient routing method for telecommunication messages 	1.
-11 Who is credited with the modern name for this system 	Davies is credited with coining the modern name packet switching and inspiring numerous packet switching networks in Europe 	4.
+5 What did Paul Baran develop ?	Paul Baran developed the concept Distributed Adaptive Message Block Switching 	1.
+6 What did Distributed Adaptive Message Block Switching do?	provide a faulttolerant efficient routing method for telecommunication messages 	1.
+7 What did this concept contradict ?	This concept contrasted and contradicted the theretofore established principles of preallocation of network bandwidth 	2.
+8 What is Donald Davies credited with ?	Davies is credited with coining the modern name packet switching and inspiring numerous packet switching networks in Europe 	4.
+9 What did Paul Baran develop in the late 1950s?	the concept Distributed Adaptive Message Block Switching 	1.
+10 What was the goal of the system ?	to provide a faulttolerant efficient routing method for telecommunication messages 	1.
+11 Who is credited with the modern name for this system ?	Davies is credited with coining the modern name packet switching and inspiring numerous packet switching networks in Europe 	4.
 1 Packet switching contrasts with another principal networking paradigm circuit switching a method which preallocates dedicated network bandwidth specifically for each communication session each having a constant bit rate and latency between nodes.
 2 In cases of billable services such as cellular communication services circuit switching is characterized by a fee per unit of connection time even when no data is transferred while packet switching may be characterized by a fee per unit of information transmitted such as characters packets or messages.
-3 Packet Switching contrast with what other principal 	circuit switching 	1.
-4 What is circuit switching characterized by	circuit switching is characterized by a fee per unit of connection time 	2.
-5 How is packet switching charecterized	by a fee per unit of information transmitted 	2.
-6 What does Packet switching contrast with 	circuit switching 	1.
-7 How is circuit switching allocated 	a method which preallocates dedicated network bandwidth 	1.
-8 How is circuit switching charecterized 	by a fee per unit of connection time even when no data is transferred 	2.
-9 How is packet switching characterized 	by a fee per unit of information transmitted such as characters packets or messages 	2.
+3 Packet Switching contrast with what other principal ?	circuit switching 	1.
+4 What is circuit switching characterized by?	circuit switching is characterized by a fee per unit of connection time 	2.
+5 How is packet switching charecterized?	by a fee per unit of information transmitted 	2.
+6 What does Packet switching contrast with ?	circuit switching 	1.
+7 How is circuit switching allocated ?	a method which preallocates dedicated network bandwidth 	1.
+8 How is circuit switching charecterized ?	by a fee per unit of connection time even when no data is transferred 	2.
+9 How is packet switching characterized ?	by a fee per unit of information transmitted such as characters packets or messages 	2.
 1 Packet mode communication may be implemented with or without intermediate forwarding nodes packet switches or routers.
 2 Packets are normally forwarded by intermediate network nodes asynchronously using firstin firstout buffering but may be forwarded according to some scheduling discipline for fair queuing traffic shaping or for differentiated or guaranteed quality of service such as weighted fair queuing or leaky bucket.
 3 In case of a shared physical medium such as radio or 10BASE5 the packets may be delivered according to a multiple access scheme.
-4 How is packet mode communication implemented 	with or without intermediate forwarding nodes 	1.
-5 How are packets normally forwarded	asynchronously using firstin firstout buffering but may be forwarded according to some scheduling discipline for fair queuing 	2.
-6 In cases of shared physical medium how are they delivered 	the packets may be delivered according to a multiple access scheme 	3.
-7 How is packet mode communication implemented 	with or without intermediate forwarding nodes 	1.
-8 How are packets normally forwarded	by intermediate network nodes asynchronously using firstin firstout buffering but may be forwarded according to some scheduling discipline for fair queuing 	2.
-9 In cases with shared medium how is it delivered 	the packets may be delivered according to a multiple access scheme 	3.
+4 How is packet mode communication implemented ?	with or without intermediate forwarding nodes 	1.
+5 How are packets normally forwarded?	asynchronously using firstin firstout buffering but may be forwarded according to some scheduling discipline for fair queuing 	2.
+6 In cases of shared physical medium how are they delivered ?	the packets may be delivered according to a multiple access scheme 	3.
+7 How is packet mode communication implemented ?	with or without intermediate forwarding nodes 	1.
+8 How are packets normally forwarded?	by intermediate network nodes asynchronously using firstin firstout buffering but may be forwarded according to some scheduling discipline for fair queuing 	2.
+9 In cases with shared medium how is it delivered ?	the packets may be delivered according to a multiple access scheme 	3.
 1 Baran developed the concept of distributed adaptive message block switching during his research at the RAND Corporation for the US Air Force into survivable communications networks first presented to the Air Force in the summer of 1961 as briefing B265 later published as RAND report P2626 in 1962 and finally in report RM 3420 in 1964.
 2 Report P2626 described a general architecture for a largescale distributed survivable communications network.
 3 The work focuses on three key ideas use of a decentralized network with multiple paths between any two points dividing user messages into message blocks later called packets and delivery of these messages by store and forward switching.
-4 What did Baran develop during research at RAND 	the concept of distributed adaptive message block switching 	1.
-5 What was developed for the Air Force 	survivable communications networks 	1.
-6 What 3 things does the Air Force work key on 	use of a decentralized network with multiple paths between any two points dividing user messages into message blocks 	3.
-7 How are Air force messages delivered 	delivery of these messages by store and forward switching 	3.
-8 What was report P2626	a general architecture for a largescale distributed survivable communications network 	2.
-9 What delivery message was used 	by store and forward switching 	3.
-10 What concept was developed by Baran while researching at RAND	distributed adaptive message block switching 	1.
-11 What  things did the network concentrate on 	use of a decentralized network with multiple paths between any two points dividing user messages into message blocks later called packets 	3.
+4 What did Baran develop during research at RAND ?	the concept of distributed adaptive message block switching 	1.
+5 What was developed for the Air Force ?	survivable communications networks 	1.
+6 What 3 things does the Air Force work key on ?	use of a decentralized network with multiple paths between any two points dividing user messages into message blocks 	3.
+7 How are Air force messages delivered ?	delivery of these messages by store and forward switching 	3.
+8 What was report P2626?	a general architecture for a largescale distributed survivable communications network 	2.
+9 What delivery message was used ?	by store and forward switching 	3.
+10 What concept was developed by Baran while researching at RAND?	distributed adaptive message block switching 	1.
+11 What  things did the network concentrate on ?	use of a decentralized network with multiple paths between any two points dividing user messages into message blocks later called packets 	3.
 1 Starting in 1965 Donald Davies at the National Physical Laboratory UK independently developed the same message routing methodology as developed by Baran.
 2 He called it packet switching a more accessible name than Barans and proposed to build a nationwide network in the UK.
 3 He gave a talk on the proposal in 1966 after which a person from the Ministry of Defence MoD told him about Barans work.
 4 A member of Davies team Roger Scantlebury met Lawrence Roberts at the 1967 ACM Symposium on Operating System Principles and suggested it for use in the ARPANET.
-5 What did Donald Davies Develop	independently developed the same message routing methodology as developed by Baran 	1.
-6 What did Davies call his system 	packet switching 	2.
-7 What did Davies want to build 	proposed to build a nationwide network in the UK 	2.
-8 What use was suggested for the system 	use in the ARPANET 	4.
-9 Who developed the same technology as Baran 	Donald Davies 	1.
-10 What did Davies call the System 	packet switching 	2.
-11 What was suggested at the Symposium in 1967	suggested it for use in the ARPANET 	4.
+5 What did Donald Davies Develop?	independently developed the same message routing methodology as developed by Baran 	1.
+6 What did Davies call his system ?	packet switching 	2.
+7 What did Davies want to build ?	proposed to build a nationwide network in the UK 	2.
+8 What use was suggested for the system ?	use in the ARPANET 	4.
+9 Who developed the same technology as Baran ?	Donald Davies 	1.
+10 What did Davies call the System ?	packet switching 	2.
+11 What was suggested at the Symposium in 1967?	suggested it for use in the ARPANET 	4.
 1 In connectionless mode each packet includes complete addressing information.
 2 The packets are routed individually sometimes resulting in different paths and outoforder delivery.
 3 Each packet is labeled with a destination address source address and port numbers.
@@ -9048,10 +9048,10 @@
 6 Each packet is dispatched and may go via different routes potentially the system has to do as much work for every packet as the connectionoriented system has to do in connection setup but with less information as to the applications requirements.
 7 At the destination the original messagedata is reassembled in the correct order based on the packet sequence number.
 8 Thus a virtual connection also known as a virtual circuit or byte stream is provided to the enduser by a transport layer protocol although intermediate network nodes only provides a connectionless network layer service.
-9 What does each packet includ in connectionless mode 	each packet includes complete addressing information 	1.
-10 How are the packets routed 	individually sometimes resulting in different paths and outoforder delivery 	2.
-11 What is included with each packet label	Each packet is labeled with a destination address source address and port numbers It may also be labeled with the sequence number of the packet 	3.
-12 What happens to the packet at the destination	the original messagedata is reassembled in the correct order based on the packet sequence number 	7.
+9 What does each packet includ in connectionless mode ?	each packet includes complete addressing information 	1.
+10 How are the packets routed ?	individually sometimes resulting in different paths and outoforder delivery 	2.
+11 What is included with each packet label?	Each packet is labeled with a destination address source address and port numbers It may also be labeled with the sequence number of the packet 	3.
+12 What happens to the packet at the destination?	the original messagedata is reassembled in the correct order based on the packet sequence number 	7.
 1 Connectionoriented transmission requires a setup phase in each involved node before any packet is transferred to establish the parameters of communication.
 2 The packets include a connection identifier rather than address information and are negotiated between endpoints so that they are delivered in order and with error checking.
 3 Address information is only transferred to each node during the connection setup phase when the route to the destination is discovered and an entry is added to the switching table in each network node through which the connection passes.
@@ -9059,10 +9059,10 @@
 5 Acceptable values for service parameters may be negotiated.
 6 Routing a packet requires the node to look up the connection id in a table.
 7 The packet header can be small as it only needs to contain this code and any information such as length timestamp or sequence number which is different for different packets.
-8 Is the packet header long 	The packet header can be small as it only needs to contain this code and any information such as length timestamp or sequence number 	7.
-9 Why is the node requiered to look up 	Routing a packet requires the node to look up the connection id in a table 	6.
-10 What is a connection identifier 	a connection identifier rather than address information and are negotiated between endpoints so that they are delivered in order and with error checking 	2.
-11 What does connection orientation require	a setup phase in each involved node before any packet is transferred to establish the parameters of communication 	1.
+8 Is the packet header long ?	The packet header can be small as it only needs to contain this code and any information such as length timestamp or sequence number 	7.
+9 Why is the node requiered to look up ?	Routing a packet requires the node to look up the connection id in a table 	6.
+10 What is a connection identifier ?	a connection identifier rather than address information and are negotiated between endpoints so that they are delivered in order and with error checking 	2.
+11 What does connection orientation require?	a setup phase in each involved node before any packet is transferred to establish the parameters of communication 	1.
 1 Both X25 and Frame Relay provide connectionoriented operations.
 2 But X25 does it at the network layer of the OSI Model.
 3 Frame Relay does it at level two the data link layer.
@@ -9092,10 +9092,10 @@
 27 However X25 and well as Frame Relay have been supplanted by the Internet Protocol IP at the network layer and the Asynchronous Transfer Mode ATM and or versions of MultiProtocol Label Switching MPLS at layer two.
 28 A typical configuration is to run IP over ATM or a version of MPLS.
 29 Uyless Black X25 and Related Protocols IEEE Computer Society 1991 Uyless Black Frame Relay Networks McGrawHill 1998 Uyless Black MPLS and Label Switching Networks Prentice Hall 2001  Uyless Black ATM Volume I Prentice Hall 1995.
-30 WHat do x25 and Frame Relay both require	connectionoriented operations But X25 does it at the network layer of the OSI Model Frame Relay does it at level two the data link layer 	1.
-31 What supplanted Frame Relay and X25 	supplanted by the Internet Protocol IP at the network layer and the Asynchronous Transfer Mode ATM and or versions of MultiProtocol Label Switching 	27.
-32 What were X25 and Frame relay used for 	Frame Relay was used to interconnect LANs across wide area networks However X25 and well as Frame Relay have been supplanted 	26.
-33 What is a typical configuration	A typical configuration is to run IP over ATM or a version of MPLS 	28.
+30 WHat do x25 and Frame Relay both require?	connectionoriented operations But X25 does it at the network layer of the OSI Model Frame Relay does it at level two the data link layer 	1.
+31 What supplanted Frame Relay and X25 ?	supplanted by the Internet Protocol IP at the network layer and the Asynchronous Transfer Mode ATM and or versions of MultiProtocol Label Switching 	27.
+32 What were X25 and Frame relay used for ?	Frame Relay was used to interconnect LANs across wide area networks However X25 and well as Frame Relay have been supplanted 	26.
+33 What is a typical configuration?	A typical configuration is to run IP over ATM or a version of MPLS 	28.
 1 ARPANET and SITA HLN became operational in 1969.
 2 Before the introduction of X25 in 1973 about twenty different network technologies had been developed.
 3 Two fundamental differences involved the division of functions and tasks between the hosts at the edge of the network and the network core.
@@ -9104,53 +9104,53 @@
 6 In the virtual call system the network guarantees sequenced delivery of data to the host.
 7 This results in a simpler host interface with less functionality than in the datagram model.
 8 The X25 protocol suite uses this network type.
-9 WHen did ARPNET and SITA become operational	1969 	1.
-10 2 differences betwen X25 and ARPNET CITA technologies 	Two fundamental differences involved the division of functions and tasks between the hosts at the edge of the network and the network core 	3.
-11 WHat does UserDatagram Protocol gaurentee	In the virtual call system the network guarantees sequenced delivery of data to the host 	6.
-12 X25 uses what type network type 	User Datagram Protocol 	5.
+9 WHen did ARPNET and SITA become operational?	1969 	1.
+10 2 differences betwen X25 and ARPNET CITA technologies ?	Two fundamental differences involved the division of functions and tasks between the hosts at the edge of the network and the network core 	3.
+11 WHat does UserDatagram Protocol gaurentee?	In the virtual call system the network guarantees sequenced delivery of data to the host 	6.
+12 X25 uses what type network type ?	User Datagram Protocol 	5.
 1 AppleTalk was a proprietary suite of networking protocols developed by Apple Inc in 1985 for Apple Macintosh computers.
 2 It was the primary protocol used by Apple devices through the 1980s and 90s.
 3 AppleTalk included features that allowed local area networks to be established ad hoc without the requirement for a centralized router or server.
 4 The AppleTalk system automatically assigned addresses updated the distributed namespace and configured any required internetwork routing.
 5 It was a plugnplay system.
-6 What was Apple Talk 	a proprietary suite of networking protocols developed by Apple Inc in 1985 	1.
-7 WHat were features of Apple Talk 	that allowed local area networks to be established ad hoc without the requirement for a centralized router or server 	3.
-8 What did the Apple system assign automatically 	automatically assigned addresses updated the distributed namespace and configured any required internetwork routing 	4.
-9 This type of system is known as 	a plugnplay system 	5.
+6 What was Apple Talk ?	a proprietary suite of networking protocols developed by Apple Inc in 1985 	1.
+7 WHat were features of Apple Talk ?	that allowed local area networks to be established ad hoc without the requirement for a centralized router or server 	3.
+8 What did the Apple system assign automatically ?	automatically assigned addresses updated the distributed namespace and configured any required internetwork routing 	4.
+9 This type of system is known as ?	a plugnplay system 	5.
 1 The CYCLADES packet switching network was a French research network designed and directed by Louis Pouzin.
 2 First demonstrated in 1973 it was developed to explore alternatives to the early ARPANET design and to support network research generally.
 3 It was the first network to make the hosts responsible for reliable delivery of data rather than the network itself using unreliable datagrams and associated endtoend protocol mechanisms.
 4 Concepts of this network influenced later ARPANET architecture.
-5 What network was designed by the french 	CYCLADES packet switching network 	1.
-6 What was a first for this network 	to make the hosts responsible for reliable delivery of data rather than the network itself 	3.
-7 How was this possible 	using unreliable datagrams and associated endtoend protocol mechanisms 	3.
-8 This network influenced  later models of 	later ARPANET architecture 	4.
+5 What network was designed by the french ?	CYCLADES packet switching network 	1.
+6 What was a first for this network ?	to make the hosts responsible for reliable delivery of data rather than the network itself 	3.
+7 How was this possible ?	using unreliable datagrams and associated endtoend protocol mechanisms 	3.
+8 This network influenced  later models of ?	later ARPANET architecture 	4.
 1 DECnet is a suite of network protocols created by Digital Equipment Corporation originally released in 1975 in order to connect two PDP11 minicomputers.
 2 It evolved into one of the first peertopeer network architectures thus transforming DEC into a networking powerhouse in the 1980s.
 3 Initially built with three layers it later 1982 evolved into a sevenlayer OSIcompliant networking protocol.
 4 The DECnet protocols were designed entirely by Digital Equipment Corporation.
 5 However DECnet Phase II and later were open standards with published specifications and several implementations were developed outside DEC including one for Linux.
-6 What is  DECnet	a suite of network protocols created by Digital Equipment Corporation 	1.
-7 What did DECnet originally do 	connect two PDP11 minicomputers 	1.
-8 DEC originally had 3 layers but evolved into how many layers 	Initially built with three layers it later 1982 evolved into a sevenlayer OSIcompliant networking protocol 	3.
-9 What did DECnet phase 2 become 	were open standards with published specifications and several implementations were developed outside DEC including one for Linux 	5.
+6 What is  DECnet?	a suite of network protocols created by Digital Equipment Corporation 	1.
+7 What did DECnet originally do ?	connect two PDP11 minicomputers 	1.
+8 DEC originally had 3 layers but evolved into how many layers ?	Initially built with three layers it later 1982 evolved into a sevenlayer OSIcompliant networking protocol 	3.
+9 What did DECnet phase 2 become ?	were open standards with published specifications and several implementations were developed outside DEC including one for Linux 	5.
 1 In 1965 at the instigation of Warner Sinback a data network based on this voicephone network was designed to connect GEs four computer sales and service centers Schenectady Phoenix Chicago and Phoenix to facilitate a computer timesharing service apparently the worlds first commercial online service.
 2 In addition to selling GE computers the centers were computer service bureaus offering batch processing services.
 3 They lost money from the beginning and Sinback a highlevel marketing manager was given the job of turning the business around.
 4 He decided that a timesharing system based on Kemneys work at Dartmouth—which used a computer on loan from GE—could be profitable.
 5 Warner was right.
-6 What was Warner Sinback	a data network based on this voicephone network was designed to connect GEs four computer sales and service centers 	1.
-7 The 4 sales and service centers are viewed as 	the worlds first commercial online service 	1.
-8 Were the centers profitable	They lost money from the beginning and Sinback a highlevel marketing manager was given the job of turning the business around 	3.
-9 What did Warner Sinback decide 	that a timesharing system based on Kemneys work at Dartmouth—which used a computer on loan from GE—could be profitable 	4.
+6 What was Warner Sinback?	a data network based on this voicephone network was designed to connect GEs four computer sales and service centers 	1.
+7 The 4 sales and service centers are viewed as ?	the worlds first commercial online service 	1.
+8 Were the centers profitable?	They lost money from the beginning and Sinback a highlevel marketing manager was given the job of turning the business around 	3.
+9 What did Warner Sinback decide ?	that a timesharing system based on Kemneys work at Dartmouth—which used a computer on loan from GE—could be profitable 	4.
 1 Merit Network Inc an independent nonprofit 501c3 corporation governed by Michigans public universities was formed in 1966 as the Michigan Educational Research Information Triad to explore computer networking between three of Michigans public universities as a means to help the states educational and economic development.
 2 With initial support from the State of Michigan and the National Science Foundation NSF the packetswitched network was first demonstrated in December 1971 when an interactive host to host connection was made between the IBM mainframe computer systems at the University of Michigan in Ann Arbor and Wayne State University in Detroit.
 3 In October 1972 connections to the CDC mainframe at Michigan State University in East Lansing completed the triad.
 4 Over the next several years in addition to host to host interactive connections the network was enhanced to support terminal to host connections host to host batch connections remote job submission remote printing batch file transfer interactive file transfer gateways to the Tymnet and Telenet public data networks X25 host attachments gateways to X25 data networks Ethernet attached hosts and eventually TCPIP and additional public universities in Michigan join the network.
 5 All of this set the stage for Merits role in the NSFNET project starting in the mid1980s.
-6 WHy was the Merit network formed in Michigan 	as a means to help the states educational and economic development 	1.
-7 What completed the triad 	an interactive host to host connection was made between the IBM mainframe computer systems at the University of Michigan in Ann Arbor and Wayne State 	2.
-8 What set the stage for Merits role in NSFNET	Ethernet attached hosts and eventually TCPIP and additional public universities in Michigan join the network 	4.
+6 WHy was the Merit network formed in Michigan ?	as a means to help the states educational and economic development 	1.
+7 What completed the triad ?	an interactive host to host connection was made between the IBM mainframe computer systems at the University of Michigan in Ann Arbor and Wayne State 	2.
+8 What set the stage for Merits role in NSFNET?	Ethernet attached hosts and eventually TCPIP and additional public universities in Michigan join the network 	4.
 1 Telenet was the first FCClicensed public data network in the United States.
 2 It was founded by former ARPA IPTO director Larry Roberts as a means of making ARPANET technology public.
 3 He had tried to interest ATT in buying the technology but the monopolys reaction was that this was incompatible with their future.
@@ -9159,11 +9159,11 @@
 6 Telenet designed these protocols and helped standardize them in the CCITT.
 7 Telenet was incorporated in 1973 and started operations in 1975.
 8 It went public in 1979 and was then sold to GTE.
-9 What was telenet 	the first FCClicensed public data network in the United States 	1.
-10 Who founded Telnet 	Larry Roberts 	2.
-11 Purpose of Telnet 	making ARPANET technology public 	2.
-12 Telnet Used what  Interface technology	host interface to X25 and the terminal interface to X29 	5.
-13 Telnet was sold to 	Telenet was incorporated in 1973 and started operations in 1975 It went public in 1979 and was then sold to GTE 	7.
+9 What was telenet ?	the first FCClicensed public data network in the United States 	1.
+10 Who founded Telnet ?	Larry Roberts 	2.
+11 Purpose of Telnet ?	making ARPANET technology public 	2.
+12 Telnet Used what  Interface technology?	host interface to X25 and the terminal interface to X29 	5.
+13 Telnet was sold to ?	Telenet was incorporated in 1973 and started operations in 1975 It went public in 1979 and was then sold to GTE 	7.
 1 Tymnet was an international data communications network headquartered in San Jose CA that utilized virtual call packet switched technology and used X25 SNASDLC BSC and ASCII interfaces to connect host computers serversat thousands of large companies educational institutions and government agencies.
 2 Users typically connected via dialup connections or dedicated async connections.
 3 The business consisted of a large public network that supported dialup users and a private network business that allowed government agencies and large companies mostly banks and airlines to build their own dedicated networks.
@@ -9171,11 +9171,11 @@
 5 Tymnet was also connected to dozens of other public networks in the US and internationally via X25X75 gateways.
 6 Interesting note Tymnet was not named after Mr Tyme.
 7 Another employee suggested the name.
-8 What was Tymnet	an international data communications network headquartered in San Jose CA 	1.
-9 What did Tymnet connect 	connect host computers serversat thousands of large companies educational institutions and government agencies 	1.
-10 How did user of Tymnet connect 	connected via dialup connections or dedicated async connections 	2.
-11 The business allowed for private companies to do what 	government agencies and large companies mostly banks and airlines to build their own dedicated networks 	3.
-12 Gateways allowed private companies to do what 	private networks were often connected via gateways to the public network to reach locations not on the private network 	4.
+8 What was Tymnet?	an international data communications network headquartered in San Jose CA 	1.
+9 What did Tymnet connect ?	connect host computers serversat thousands of large companies educational institutions and government agencies 	1.
+10 How did user of Tymnet connect ?	connected via dialup connections or dedicated async connections 	2.
+11 The business allowed for private companies to do what ?	government agencies and large companies mostly banks and airlines to build their own dedicated networks 	3.
+12 Gateways allowed private companies to do what ?	private networks were often connected via gateways to the public network to reach locations not on the private network 	4.
 1 There were two kinds of X25 networks.
 2 Some such as DATAPAC and TRANSPAC were initially implemented with an X25 external interface.
 3 Some older networks such as TELENET and TYMNET were modified to provide a X25 host interface in addition to older host connection schemes.
@@ -9184,54 +9184,54 @@
 6 X75 and X121 allowed the interconnection of national X25 networks.
 7 A user or host could call a host on a foreign network by including the DNIC of the remote network as part of the destination address.
 8 citation needed.
-9 How many types of X25 networks were there originally 	There were two kinds of X25 networks Some such as DATAPAC and TRANSPAC 	1.
-10 Who developed DATAPAC	DATAPAC was developed by Bell Northern Research 	4.
-11 WHat did foreign clones of DATAPAC allow for 	A user or host could call a host on a foreign network by including the DNIC of the remote network as part of the destination address 	7.
+9 How many types of X25 networks were there originally ?	There were two kinds of X25 networks Some such as DATAPAC and TRANSPAC 	1.
+10 Who developed DATAPAC?	DATAPAC was developed by Bell Northern Research 	4.
+11 WHat did foreign clones of DATAPAC allow for ?	A user or host could call a host on a foreign network by including the DNIC of the remote network as part of the destination address 	7.
 1 AUSTPAC was an Australian public X25 network operated by Telstra.
 2 Started by Telecom Australia in the early 1980s AUSTPAC was Australias first public packetswitched data network supporting applications such as online betting financial applications — the Australian Tax Office made use of AUSTPAC — and remote terminal access to academic institutions who maintained their connections to AUSTPAC up until the midlate 1990s in some cases.
 3 Access can be via a dialup terminal to a PAD or by linking a permanent X25 node to the network.
 4 citation needed.
-5 What was AUSTPAC	AUSTPAC was an Australian public X25 network operated by Telstra 	1.
-6 What did AUSTPAC support 	supporting applications such as online betting financial applications 	2.
-7 How are AUSTPAC connections made 	Access can be via a dialup terminal to a PAD or by linking a permanent X25 node to the network 	3.
+5 What was AUSTPAC?	AUSTPAC was an Australian public X25 network operated by Telstra 	1.
+6 What did AUSTPAC support ?	supporting applications such as online betting financial applications 	2.
+7 How are AUSTPAC connections made ?	Access can be via a dialup terminal to a PAD or by linking a permanent X25 node to the network 	3.
 1 Datanet 1 was the public switched data network operated by the Dutch PTT Telecom now known as KPN.
 2 Strictly speaking Datanet 1 only referred to the network and the connected users via leased lines using the X121 DNIC 2041 the name also referred to the public PAD service Telepad using the DNIC 2049.
 3 And because the main Videotex service used the network and modified PAD devices as infrastructure the name Datanet 1 was used for these services as well.
 4 Although this use of the name was incorrect all these services were managed by the same people within one department of KPN contributed to the confusion.
-5 What was DATANET 1 	was the public switched data network operated by the Dutch PTT Telecom 	1.
-6 Strictly speaking who was included in DATANET 1	Datanet 1 only referred to the network and the connected users via leased lines 	2.
-7 Who else did DATNET 1 refer to 	public PAD service Telepad using the DNIC 2049 	2.
-8 Was the Use of the DATANET 1 name correct 	use of the name was incorrect all these services were managed by the same people within one department of KPN contributed to the confusion 	4.
+5 What was DATANET 1 ?	was the public switched data network operated by the Dutch PTT Telecom 	1.
+6 Strictly speaking who was included in DATANET 1?	Datanet 1 only referred to the network and the connected users via leased lines 	2.
+7 Who else did DATNET 1 refer to ?	public PAD service Telepad using the DNIC 2049 	2.
+8 Was the Use of the DATANET 1 name correct ?	use of the name was incorrect all these services were managed by the same people within one department of KPN contributed to the confusion 	4.
 1 The Computer Science Network CSNET was a computer network funded by the US National Science Foundation NSF that began operation in 1981.
 2 Its purpose was to extend networking benefits for computer science departments at academic and research institutions that could not be directly connected to ARPANET due to funding or authorization limitations.
 3 It played a significant role in spreading awareness of and access to national networking and was a major milestone on the path to development of the global Internet.
-4 What is CSNET	The Computer Science Network 	1.
-5 What was the purpose of CSNET	to extend networking benefits for computer science departments at academic and research institutions that could not be directly connected to ARPANET 	2.
-6 Funding limitations allowed CSNET to be what 	role in spreading awareness of and access to national networking and was a major milestone on the path to development of the global Internet 	3.
+4 What is CSNET?	The Computer Science Network 	1.
+5 What was the purpose of CSNET?	to extend networking benefits for computer science departments at academic and research institutions that could not be directly connected to ARPANET 	2.
+6 Funding limitations allowed CSNET to be what ?	role in spreading awareness of and access to national networking and was a major milestone on the path to development of the global Internet 	3.
 1 Internet2 is a notforprofit United States computer networking consortium led by members from the research and education communities industry and government.
 2 The Internet2 community in partnership with Qwest built the first Internet2 Network called Abilene in 1998 and was a prime investor in the National LambdaRail NLR project.
 3 In 2006 Internet2 announced a partnership with Level 3 Communications to launch a brand new nationwide network boosting its capacity from 10 Gbits to 100 Gbits.
 4 In October 2007 Internet2 officially retired Abilene and now refers to its new higher capacity network as the Internet2 Network.
-5  what is Internet2	a notforprofit United States computer networking consortium led by members from the research and education communities industry and government 	1.
-6 Who did internet2 partner with	The Internet2 community in partnership with Qwest 	2.
-7 What was the first internet2 network named	Abilene 	2.
-8 Who did internet2 partner with 	a partnership with Level 3 Communications to launch a brand new nationwide network 	3.
-9 ableine was retired and the new platform is called 	Internet2 officially retired Abilene and now refers to its new higher capacity network as the Internet2 Network 	4.
+5  what is Internet2?	a notforprofit United States computer networking consortium led by members from the research and education communities industry and government 	1.
+6 Who did internet2 partner with?	The Internet2 community in partnership with Qwest 	2.
+7 What was the first internet2 network named?	Abilene 	2.
+8 Who did internet2 partner with ?	a partnership with Level 3 Communications to launch a brand new nationwide network 	3.
+9 ableine was retired and the new platform is called ?	Internet2 officially retired Abilene and now refers to its new higher capacity network as the Internet2 Network 	4.
 1 The National Science Foundation Network NSFNET was a program of coordinated evolving projects sponsored by the National Science Foundation NSF beginning in 1985 to promote advanced research and education networking in the United States.
 2 NSFNET was also the name given to several nationwide backbone networks operating at speeds of 56 kbits 15 Mbits T1 and 45 Mbits T3 that were constructed to support NSFs networking initiatives from 19851995.
 3 Initially created to link researchers to the nations NSFfunded supercomputing centers through further public funding and private industry partnerships it developed into a major part of the Internet backbone.
-4 What is NSFNET	The National Science Foundation Network 	1.
-5 What did NSFNET promote	advanced research and education networking in the United States 	1.
-6 What did NSFNET eventually provide	it developed into a major part of the Internet backbone 	3.
+4 What is NSFNET?	The National Science Foundation Network 	1.
+5 What did NSFNET promote?	advanced research and education networking in the United States 	1.
+6 What did NSFNET eventually provide?	it developed into a major part of the Internet backbone 	3.
 1 The Very highspeed Backbone Network Service vBNS came on line in April 1995 as part of a National Science Foundation NSF sponsored project to provide highspeed interconnection between NSFsponsored supercomputing centers and select access points in the United States.
 2 The network was engineered and operated by MCI Telecommunications under a cooperative agreement with the NSF.
 3 By 1998 the vBNS had grown to connect more than 100 universities and research and engineering institutions via 12 national points of presence with DS3 45 Mbits OC3c 155 Mbits and OC12c 622 Mbits links on an all OC12c backbone a substantial engineering feat for that time.
 4 The vBNS installed one of the first ever production OC48c 25 Gbits IP links in February 1999 and went on to upgrade the entire backbone to OC48c.
-5 what does vBNS stand for 	The Very highspeed Backbone Network Service 	1.
-6 What did vBNS do 	provide highspeed interconnection between NSFsponsored supercomputing centers and select access points in the United States 	1.
-7 Who operated the vBSN network 	The network was engineered and operated by MCI Telecommunications under a cooperative agreement with the NSF 	2.
-8 By 199 how many universities were connected 	By 1998 the vBNS had grown to connect more than 100 universities and research and engineering institutions via 12 national points of presence with DS3 	3.
-9 What did the network install in 1999	vBNS installed one of the first ever production OC48c 25 Gbits IP links in February 1999 and went on to upgrade the entire backbone to OC48c 	4.
+5 what does vBNS stand for ?	The Very highspeed Backbone Network Service 	1.
+6 What did vBNS do ?	provide highspeed interconnection between NSFsponsored supercomputing centers and select access points in the United States 	1.
+7 Who operated the vBSN network ?	The network was engineered and operated by MCI Telecommunications under a cooperative agreement with the NSF 	2.
+8 By 199 how many universities were connected ?	By 1998 the vBNS had grown to connect more than 100 universities and research and engineering institutions via 12 national points of presence with DS3 	3.
+9 What did the network install in 1999?	vBNS installed one of the first ever production OC48c 25 Gbits IP links in February 1999 and went on to upgrade the entire backbone to OC48c 	4.
 1 The Black Death is thought to have originated in the arid plains of Central Asia where it then travelled along the Silk Road reaching Crimea by 1343.
 2 From there it was most likely carried by Oriental rat fleas living on the black rats that were regular passengers on merchant ships.
 3 Spreading throughout the Mediterranean and Europe the Black Death is estimated to have killed 30–60 of Europes total population.
@@ -9581,7 +9581,7 @@
 7 These folds can either be those where the material in the center of the fold buckles upwards creating antiforms or where it buckles downwards creating synforms.
 8 If the tops of the rock units within the folds remain pointing upwards they are called anticlines and synclines respectively.
 9 If some of the units in the fold are facing downward the structure is called an overturned anticline or syncline and if all of the rock units are overturned or the correct updirection is unknown they are simply called by the most general terms antiforms and synforms.
-10 Rock units become thicker and shorten when placed under this type of compression 	horizontal compression 	1.
+10 Rock units become thicker and shorten when placed under this type of compression ?	horizontal compression 	1.
 11 Where do thrust faults form?	In the shallow crust	3
 12 When rock folds deep in the Earth it can fold one of two ways when it buckles upwards it creates what?	antiforms	7
 13 When rock folds deep in the Earth it can fold one of two ways when it buckles downwards it creates what?	synforms	7
@@ -9593,7 +9593,7 @@
 5 Stretching of units can result in their thinning in fact there is a location within the Maria Fold and Thrust Belt in which the entire sedimentary sequence of the Grand Canyon can be seen over a length of less than a meter.
 6 Rocks at the depth to be ductilely stretched are often also metamorphosed.
 7 These stretched rocks can also pinch into lenses known as boudins after the French word for sausage because of their visual similarity.
-8 This causes the rock unit as a whole to become longer and thinner 	Extension 	1.
+8 This causes the rock unit as a whole to become longer and thinner ?	Extension 	1.
 9 Stretched rocks that pinch into lenses are known by what word?	boudins	7
 10 Where can the entire sedimentary sequence of the Grand Canyon be seen in less than the length of a meter?	within the Maria Fold and Thrust Belt	5
 11 Rocks that are a depth where they are ductilely stretched are also often what?	metamorphosed	6
@@ -10611,7 +10611,7 @@
 12 What British cultural trend during the Georgian is linked to design during the same period?	increasing emphasis on entertainment and leisure	4
 13 Who is considered the leading figure in the Arts and Crafts movement?	John Ruskin	10
 14 The entrepreneurs Josiah Wedgwood Matthew Boulton and Eleanor Coade were influenced by what manufacturing process developed during the Industrial Revolution?	the growth of mass production	7
-15 A reaction against industrialiazation contributed to the development of what artistic movement in the late 19th centurY	Arts and Crafts 	10.
+15 A reaction against industrialiazation contributed to the development of what artistic movement in the late 19th centurY?	Arts and Crafts 	10.
 1 One of the most dramatic parts of the museum is the Cast Courts in the sculpture wing comprising two large skylighted rooms two storeys high housing hundreds of plaster casts of sculptures friezes and tombs.
 2 One of these is dominated by a fullscale replica of Trajans Column cut in half in order to fit under the ceiling.
 3 The other includes reproductions of various works of Italian Renaissance sculpture and architecture including a fullsize replica of Michelangelos David.
@@ -10892,7 +10892,7 @@
 4 What company owns the American Broadcasting Company?	The Walt Disney Company	1
 5 In what year did ABC stylize its logo as abc?	1957	1
 6 In what borough of New York City is ABC headquartered?	Manhattan	3
-7 On what streets is the ABC headquarters located	Columbus Avenue and West 66th Street 	3.
+7 On what streets is the ABC headquarters located?	Columbus Avenue and West 66th Street 	3.
 8 DisneyABC Television Group is a subsidiary of what division of the Walt Disney Company?	Disney Media Networks	1
 1 ABC originally launched on October 12 1943 as a radio network separated from and serving as the successor to the NBC Blue Network which had been purchased by Edward J Noble.
 2 It extended its operations to television in 1948 following in the footsteps of established broadcast networks CBS and NBC.
@@ -10927,7 +10927,7 @@
 4 At that time the NBC Red Network was the principal radio network in the United States and according to the FCC RCA was using NBC Blue to eliminate any hint of competition.
 5 Having no power over the networks themselves the FCC established a regulation forbidding licenses to be issued for radio stations if they were affiliated with a network which already owned multiple networks that provided content of public interest.
 6 What company filed a complaint with the FCC in 1934 concerning problems establishing new stations?	Mutual	1
-7 In what year did the FCC begin an investigation in to the operation of radio networks in America	1938 	2.
+7 In what year did the FCC begin an investigation in to the operation of radio networks in America?	1938 	2.
 8 In what year did the FCC publish its report?	1940	2
 9 What was the main radio network in the 1940s in America?	NBC Red Network	4
 10 What radio network was RCA using to eliminate competition in 1940?	NBC Blue	4
@@ -12516,8 +12516,8 @@
 7 What can result from disorders of the immune system?	autoimmune diseases  inflammatory diseases and cancer	1
 8 When does immunodeficiency occur?	when the immune system is less active than normal	2
 9 What does immunodeficiency cause?	recurring and lifethreatening infections	2
-10 Name one of the causes of immunodeficiency	genetic disease 	3.
-11 Name a common autoimmune disease	rheumatoid arthritis 	5.
+10 Name one of the causes of immunodeficiency?	genetic disease 	3.
+11 Name a common autoimmune disease?	rheumatoid arthritis 	5.
 12 What happens when the immune system less active than normal?	Immunodeficiency	2
 13 What is the term for a hyperactive immune system that attacks normal tissues?	autoimmunity	4
 14 What field involves the study of the immune system?	Immunology	6
@@ -13051,7 +13051,7 @@
 9 Who noted the different current uses of civil disobedience?	Marshall Cohen	2
 10 How has civil disobedience evolved in current times?	codeword describing the activities of muggers  arsonists  draft evaders	3
 11 Who gave a negative connotation to civil disobedience in recent history?	Vice President Agnew	3
-12 What issue has been plaguing the civil disobedience movement	ambiguity 	1.
+12 What issue has been plaguing the civil disobedience movement?	ambiguity 	1.
 1 LeGrande writes that the formulation of a single allencompassing definition of the term is extremely difficult if not impossible.
 2 In reviewing the voluminous literature on the subject the student of civil disobedience rapidly finds himself surrounded by a maze of semantical problems and grammatical niceties.
 3 Like Alice in Wonderland he often finds that specific terminology has no more or no less meaning than the individual orator intends it to have.
@@ -13232,7 +13232,7 @@
 1 Some civil disobedients feel it is incumbent upon them to accept punishment because of their belief in the validity of the social contract which is held to bind all to obey the laws that a government meeting certain standards of legitimacy has established or else suffer the penalties set out in the law.
 2 Other civil disobedients who favor the existence of government still dont believe in the legitimacy of their particular government or dont believe in the legitimacy of a particular law it has enacted.
 3 And still other civil disobedients being anarchists dont believe in the legitimacy of any government and therefore see no need to accept punishment for a violation of criminal law that does not infringe the rights of others.
-4 What do some civil disobedient people feel the need to acknowledge	accept punishment 	1.
+4 What do some civil disobedient people feel the need to acknowledge?	accept punishment 	1.
 5 Why is the need for acceptance of punishment needed?	validity of the social contract	1
 6 What do some people protest against?	legitimacy of a particular law	2
 7 What is the group called that does not agree with government at all?	anarchists	3
@@ -13480,7 +13480,7 @@
 4 A growing number of new forms of procurement involves what?	relationship contracting where the emphasis is on a cooperative relationship	1
 5 What is PPP?	PublicPrivate Partnering	2
 6 What is a PPP also known as?	private finance initiatives PFIs	2
-7 Focus on what is to ameliorate the many problems that arise from the often highly competitive and adversarial practices within the construction industry	cooperation 	3.
+7 Focus on what is to ameliorate the many problems that arise from the often highly competitive and adversarial practices within the construction industry?	cooperation 	3.
 1 This is the most common method of construction procurement and is well established and recognized.
 2 In this arrangement the architect or engineer acts as the project coordinator.
 3 His or her role is to design the works prepare the specifications and produce construction drawings administer the contract tender the works and manage the works from inception to completion.
@@ -13488,7 +13488,7 @@
 5 Any subcontractor has a direct contractual relationship with the main contractor.
 6 The procedure continues until the building is ready to occupy.
 7 In the most common construction procurement who acts as the project coordinator?	the architect or engineer	2
-8 Whose role is to design the works prepare the specifications and produce construction drawings administer the contract tender the works and manage the works from inception to completion	the project coordinator 	2.
+8 Whose role is to design the works prepare the specifications and produce construction drawings administer the contract tender the works and manage the works from inception to completion?	the project coordinator 	2.
 9 There are direct contractual links between who?	the architects client and the main contractor	4
 10 Any subcontractor has a direct contractual relationship with who?	the main contractor	4
 11 The procedure continues until what?	the building is ready to occupy	6
@@ -13983,11 +13983,11 @@
 8 In 2011 the Mines ParisTech  Professional Ranking World Universities ranked Harvard 1st university in the world in terms of number of alumni holding CEO position in Fortune Global 500 companies.
 9 Starting in what year has Harvard topped the Academic Rankings of World Universities?	2003	2
 10 Beginning in what year was Harvard on top of the World Reputation Rankings?	2011	2
-11 According to the Princeton Review where has Harvard ranked as a Dream College in 2013	second most commonly 	7.
+11 According to the Princeton Review where has Harvard ranked as a Dream College in 2013?	second most commonly 	7.
 1 The Harvard Crimson competes in 42 intercollegiate sports in the NCAA Division I Ivy League.
 2 Harvard has an intense athletic rivalry with Yale University culminating in The Game although the Harvard–Yale Regatta predates the football game.
 3 This rivalry though is put aside every two years when the Harvard and Yale Track and Field teams come together to compete against a combined Oxford University and Cambridge University team a competition that is the oldest continuous international amateur competition in the world.
-4 How many intercollegiate sports does Harvard compete in NCAA division I	42 	1.
+4 How many intercollegiate sports does Harvard compete in NCAA division I?	42 	1.
 5 What is Harvards most intense rival?	Yale University	2
 6 At what time is the HarvardYale rivalry set aside?	every two years when the Harvard and Yale Track and Field teams come together to compete against a combined Oxford University and Cambridge University team	3
 1 Harvards athletic rivalry with Yale is intense in every sport in which they meet coming to a climax each fall in the annual football meeting which dates back to 1875 and is usually called simply The Game.
@@ -14011,7 +14011,7 @@
 6 The offices of several of the schools varsity coaches are also in the MAC.
 7 What is the name of Harvards basketball facility?	Lavietes Pavilion	1
 8 What is the name of Harvards primary recreational sports facility?	Malkin Athletic Center	2
-9 How many weight rooms are in the Malkin Athletic Center	three weight rooms 	3.
+9 How many weight rooms are in the Malkin Athletic Center?	three weight rooms 	3.
 1 Older than The Game by 23 years the HarvardYale Regatta was the original source of the athletic rivalry between the two schools.
 2 It is held annually in June on the Thames River in eastern Connecticut.
 3 The Harvard crew is typically considered to be one of the top teams in the country in rowing.
@@ -14901,7 +14901,7 @@
 3 What years did the original Doctor Who series run?	1963–1989	1
 4 What new series continues the plot of the original Doctor Who?	The 2005 version	1
 5 What year was the only film version of Doctor Who shown?	1996	1
-6 Name two series that have been reboots rather than plot continuations	Battlestar Galactica and Bionic Woman 	2.
+6 Name two series that have been reboots rather than plot continuations?	Battlestar Galactica and Bionic Woman 	2.
 7 What other series mentioned returned with a plot continuation?	Mission Impossible 	2
 1 It has been claimed that the transmission of the first episode was delayed by ten minutes due to extended news coverage of the assassination of US President John F Kennedy the previous day whereas in fact it went out after a delay of eighty seconds.
 2 The BBC believed that many viewers had missed this introduction to a new series due to the coverage of the assassination as well as a series of power blackouts across the country and they broadcast it again on 30 November 1963 just before episode two.
@@ -18007,7 +18007,7 @@
 6 What happens to the norm when a number is multiplied by p?	norm gets smaller	1
 7 To what may general global fields be transferred to or from?	completed or local fields	4
 8 Completing Q with respect to what will produce the field of real numbers?	the absolute value	2
-9 What principle highlights the significance of primes in number theory	localglobal principle 	5.
+9 What principle highlights the significance of primes in number theory?	localglobal principle 	5.
 1 Prime numbers have influenced many artists and writers.
 2 The French composer Olivier Messiaen used prime numbers to create ametrical music through natural phenomena.
 3 In works such as La Nativité du Seigneur 1935 and Quatre études de rythme 1949–50 he simultaneously employs motifs with lengths given by different prime numbers to create unpredictable rhythms the primes 41 43 47 and 53 appear in the third étude Neumes rythmiques.
@@ -19437,7 +19437,7 @@
 8 When did Ronald Robinson die?	1999	1
 9 What profession were Ronald Robinson and John Gallagher?	historians	1
 10 What grew on a global scale as a result of imperialism?	the worlds economy	6
-11 Who was made rich and prosperous prior to World War 1	many imperial powers 	6.
+11 Who was made rich and prosperous prior to World War 1?	many imperial powers 	6.
 1 Europes expansion into territorial imperialism was largely focused on economic growth by collecting resources from colonies in combination with assuming political control by military and political means.
 2 The colonization of India in the mid18th century offers an example of this focus there the British exploited the political weakness of the Mughal state and while military activity was important at various times the economic and administrative incorporation of local elites was also of crucial significance for the establishment of control over the subcontinents resources markets and manpower.
 3 Although a substantial number of colonies had been designed to provide economic profit and to ship resources to home ports in the seventeenth and eighteenth centuries Fieldhouse suggests that in the nineteenth and twentieth centuries in places such as Africa and Asia this idea is not necessarily valid.
@@ -19540,7 +19540,7 @@
 8 Where did Charles de Gaulle and the Free French run operations during World War 2?	overseas colonies	1
 9 After 1945 what challenged the French empire?	anticolonial movements	2
 10 Where did France lose a war in the 1950s?	Vietnam	3
-11 Where did France win a war in the 1950s	Algeria 	4.
+11 Where did France win a war in the 1950s?	Algeria 	4.
 12 By when did most of Frances Colonies gain independence?	1960	6
 1 From their original homelands in Scandinavia and northern Europe Germanic tribes expanded throughout northern and western Europe in the middle period of classical antiquity southern Europe in late antiquity conquering Celtic and other peoples and by 800 CE forming the Holy Roman Empire the first German Empire.
 2 However there was no real systemic continuity from the Western Roman Empire to its German successor which was famously described as not holy not Roman and not an empire as a great number of small states and principalities existed in the loosely autonomous confederation.
@@ -19606,7 +19606,7 @@
 10 Mao Zedong once argued that the Soviet Union had itself become an imperialist power while maintaining a socialist façade.
 11 Moreover the ideas of imperialism were widely spread in action on the higher levels of government.
 12 Non Russian Marxists within the Russian Federation and later the USSR like Sultan Galiev and Vasyl Shakhrai considered the Soviet Regime a renewed version of the Russian imperialism and colonialism.
-13 Trotsky thought what was needed for a true Russian revolution	a world revolution 	1.
+13 Trotsky thought what was needed for a true Russian revolution?	a world revolution 	1.
 14 Who wrote that imperialism is the highest stage of capitalism?	Lenin	2
 15 Who argued that the USSR had itself become an imperialist power?	Mao Zedong	10
 16 Who was the leader of Russia in the 1960s?	Nikita Khrushchev	5
@@ -19621,7 +19621,7 @@
 8 What was the first British empire based on?	mercantilism	1
 9 When did Great Britain lose its colonies in North America?	1776	2
 10 What policy gave Britain dominance in world trade?	free trade	4
-11 When did the Spanish and Portuguese colonies gain their independance	about 1820 	3.
+11 When did the Spanish and Portuguese colonies gain their independance?	about 1820 	3.
 12 When was the defeat of Napoleonic France?	1815	6
 1 A resurgence came in the late 19th century with the Scramble for Africa and major additions in Asia and the Middle East.
 2 The British spirit of imperialism was expressed by Joseph Chamberlain and Lord Rosebury and implemented in Africa by Cecil Rhodes.
@@ -19658,7 +19658,7 @@
 8 When was Isiah Bowman appointed to President Wilsons Inquiry?	1917	3
 9 Who besides Woodrow Wilson himself had the idea for the inquiry?	American delegation from the Paris Peace Conference	4
 10 What was the premise of Woodrow Wilsons inquiry?	US authorship of a new world	5
-11 What was Isiah Bowman nick name as known by the public	Wilsons geographer 	6.
+11 What was Isiah Bowman nick name as known by the public?	Wilsons geographer 	6.
 1 Some have described the internal strife between various people groups as a form of imperialism or colonialism.
 2 This internal form is distinct from informal US imperialism in the form of political and financial hegemony.
 3 This internal form of imperialism is also distinct from the United States formation of colonies abroad.
@@ -19677,7 +19677,7 @@
 3 At the beginning of the 17th century the empire contained 32 provinces and numerous vassal states.
 4 Some of these were later absorbed into the empire while others were granted various types of autonomy during the course of centuries.
 5 When did the Ottoman Empire fall?	1923	1
-6 Who reigned over the Ottoman empire when it was at its most powerful	Suleiman the Magnificent 	2.
+6 Who reigned over the Ottoman empire when it was at its most powerful?	Suleiman the Magnificent 	2.
 7 How many provinces did the Ottoman empire contain in the 17th century?	32	3
 8 The Ottoman empire controlled territory on three continents Africa Asia and which other?	Europe	2
 9 When was the Ottoman empire at its height?	During the 16th and 17th centuries	2
@@ -20522,7 +20522,7 @@
 3 Who defeated Montcalm at Quebec?	James Wolfe	1
 4 What was the significance of victory at Forth Niagara for British?	cut off the French frontier forts further to the west and south	1
 5 What battle outside Quebec City did British lose in 1760?	Battle of SainteFoy	2
-6 What victory at thwarted efforts of French relief ships	naval Battle of the Restigouche 	2.
+6 What victory at thwarted efforts of French relief ships?	naval Battle of the Restigouche 	2.
 1 In September 1760 and before any hostilities erupted Governor Vaudreuil negotiated from Montreal a capitulation with General Amherst.
 2 Amherst granted Vaudreuils request that any French residents who chose to remain in the colony would be given freedom to continue worshiping in their Roman Catholic tradition continued ownership of their property and the right to remain undisturbed in their homes.
 3 The British provided medical treatment for the sick and wounded French soldiers and French regular troops were returned to France aboard British ships with an agreement that they were not to serve again in the present war.
@@ -20632,7 +20632,7 @@
 8 What doesnt change from being at rest to movement at a constant velocity?	laws of physics	1
 9 What path does a ball thrown up and down in a moving vehicle take when seen by an outside observer?	parabolic	3
 10 What sate are things inside of a moving vehicle as seen by a  person inside the vehicle?	at rest	5
-11 What applies to equally to constant velocity motion as it does to rest	Inertia 	7.
+11 What applies to equally to constant velocity motion as it does to rest?	Inertia 	7.
 1 The concept of inertia can be further generalized to explain the tendency of objects to continue in many different forms of constant motion even those that are not strictly constant velocity.
 2 The rotational inertia of planet Earth is what fixes the constancy of the length of a day and the length of a year.
 3 Albert Einstein extended the principle of inertia further when he explained that reference frames subject to constant acceleration such as those freefalling toward a gravitating object were physically equivalent to inertial reference frames.
@@ -20764,7 +20764,7 @@
 3 they appear in discrete portions.
 4 This is of course difficult to imagine in the context of forces.
 5 However the potentials Vxyz or fields from which the forces generally can be derived are treated similar to classical position variables ie .
-6 What equation currently decribes the physics of force	Schrödinger 	1.
+6 What equation currently decribes the physics of force?	Schrödinger 	1.
 7 What equation desribed the physics of force before the current Schrodinger equation?	Newtonian	1
 8 How are the forces derived from fields treated similarly to?	classical position variables	5
 9 What type of measurements result under Schrodinger equations when using operators instead of Newtonian variables?	quantized	2
