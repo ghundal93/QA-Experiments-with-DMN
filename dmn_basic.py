@@ -70,7 +70,7 @@ class DMN_basic:
                     outputs_info=T.zeros_like(self.b_inp_hid))
 
         self.q_q = self.q_q[-1]
-         self.q_list = [self.q_q]
+        self.q_list = [self.q_q]
         print("==> creating parameter for Deep NN before entering memory module")
         # #Input matrices are of size : dim * embed
         # self.W_nn = nn_utils.normal_param(std=0.1, shape=(self.dim,self.dim ))
@@ -179,13 +179,14 @@ class DMN_basic:
         
         
         print "==> collecting all parameters"
-        self.params = [self.W_inp_res_in, self.W_inp_res_hid, self.b_inp_res, 
+        print "==> collecting all parameters"
+        self.params = [self.W_inp_res_in, self.W_inp_res_hid, self.b_inp_res,
                   self.W_inp_upd_in, self.W_inp_upd_hid, self.b_inp_upd,
                   self.W_inp_hid_in, self.W_inp_hid_hid, self.b_inp_hid,
-                  self.W_mem_res_in, self.W_mem_res_hid, self.b_mem_res, 
+                  self.W_mem_res_in, self.W_mem_res_hid, self.b_mem_res,
                   self.W_mem_upd_in, self.W_mem_upd_hid, self.b_mem_upd,
                   self.W_mem_hid_in, self.W_mem_hid_hid, self.b_mem_hid,
-                  self.W_b, self.W_1, self.W_2, self.b_1, self.b_2, self.W_a]
+                  self.W_b, self.W_1, self.W_2, self.b_1, self.b_2, self.W_a]        
         
         if self.answer_module == 'recurrent':
             self.params = self.params + [self.W_ans_res_in, self.W_ans_res_hid, self.b_ans_res, 
